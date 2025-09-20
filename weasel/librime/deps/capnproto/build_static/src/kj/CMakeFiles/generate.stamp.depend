@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindZLIB.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake
+F:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/c++/src/kj/CMakeLists.txt

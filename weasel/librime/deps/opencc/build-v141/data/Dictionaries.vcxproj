@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BAFA4C3C-094F-33F7-AD28-D6C75A757EF7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Dictionaries</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariants.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building HKVariants.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/HKVariants.txt --output HKVariants.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\HKVariants.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariants.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariantsRev.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating HKVariantsRev.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python313\python.exe F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/scripts/reverse.py F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/HKVariants.txt HKVariantsRev.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\HKVariants.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariantsRev.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariantsRev.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building HKVariantsRev.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/HKVariantsRev.txt --output HKVariantsRev.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariantsRev.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariantsRev.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariantsRevPhrases.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building HKVariantsRevPhrases.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/HKVariantsRevPhrases.txt --output HKVariantsRevPhrases.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\HKVariantsRevPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariantsRevPhrases.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPShinjitaiCharacters.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building JPShinjitaiCharacters.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/JPShinjitaiCharacters.txt --output JPShinjitaiCharacters.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\JPShinjitaiCharacters.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPShinjitaiCharacters.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPShinjitaiPhrases.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building JPShinjitaiPhrases.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/JPShinjitaiPhrases.txt --output JPShinjitaiPhrases.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\JPShinjitaiPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPShinjitaiPhrases.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPVariants.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building JPVariants.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/JPVariants.txt --output JPVariants.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\JPVariants.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPVariants.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPVariantsRev.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating JPVariantsRev.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python313\python.exe F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/scripts/reverse.py F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/JPVariants.txt JPVariantsRev.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\JPVariants.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPVariantsRev.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPVariantsRev.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building JPVariantsRev.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/JPVariantsRev.txt --output JPVariantsRev.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPVariantsRev.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPVariantsRev.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\STCharacters.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building STCharacters.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/STCharacters.txt --output STCharacters.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\STCharacters.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\STCharacters.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\STPhrases.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building STPhrases.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/STPhrases.txt --output STPhrases.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\STPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\STPhrases.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TSCharacters.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TSCharacters.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TSCharacters.txt --output TSCharacters.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TSCharacters.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TSCharacters.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TSPhrases.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TSPhrases.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TSPhrases.txt --output TSPhrases.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TSPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TSPhrases.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrases.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating TWPhrases.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python313\python.exe F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/scripts/merge.py F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TWPhrasesIT.txt F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TWPhrasesName.txt F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TWPhrasesOther.txt TWPhrases.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TWPhrasesIT.txt;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TWPhrasesName.txt;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TWPhrasesOther.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrases.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrases.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TWPhrases.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/TWPhrases.txt --output TWPhrases.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrases.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrasesRev.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating TWPhrasesRev.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python313\python.exe F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/scripts/reverse.py F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/TWPhrases.txt TWPhrasesRev.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrasesRev.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrasesRev.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TWPhrasesRev.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/TWPhrasesRev.txt --output TWPhrasesRev.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrasesRev.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrasesRev.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariants.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TWVariants.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TWVariants.txt --output TWVariants.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TWVariants.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariants.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariantsRev.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating TWVariantsRev.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python313\python.exe F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/scripts/reverse.py F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TWVariants.txt TWVariantsRev.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TWVariants.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariantsRev.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariantsRev.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TWVariantsRev.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/TWVariantsRev.txt --output TWVariantsRev.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariantsRev.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariantsRev.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariantsRevPhrases.ocd2.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building TWVariantsRevPhrases.ocd2</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\src\tools\Release\opencc_dict.exe --input F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/dictionary/TWVariantsRevPhrases.txt --output TWVariantsRevPhrases.ocd2 --from text --to ocd2
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\dictionary\TWVariantsRevPhrases.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariantsRevPhrases.ocd2</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\b6660cfbdb78950051a5528f928b5d59\Dictionaries.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\STCharacters.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\STPhrases.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TSCharacters.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TSPhrases.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariants.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariantsRevPhrases.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariants.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariantsRevPhrases.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPVariants.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPShinjitaiCharacters.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPShinjitaiPhrases.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrases.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWPhrasesRev.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\TWVariantsRev.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\HKVariantsRev.ocd2;F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\JPVariantsRev.ocd2;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\CMakeFiles\Dictionaries</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/data/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/3.Projects/mancan_v1/weasel/librime/deps/opencc -BF:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141 --check-stamp-file F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPythonInterp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\CMakeFiles\Dictionaries">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\ZERO_CHECK.vcxproj">
+      <Project>{0D2A7798-22B1-3255-BC32-AF97D26563BA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\copy_libopencc_to_dir_of_opencc_dict.vcxproj">
+      <Project>{CD0F411E-4ABA-3DCC-B0BB-A3A4EA54B24E}</Project>
+      <Name>copy_libopencc_to_dir_of_opencc_dict</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\opencc_dict.vcxproj">
+      <Project>{81CF14F6-26F0-3C84-8386-E44930C154ED}</Project>
+      <Name>opencc_dict</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

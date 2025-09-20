@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\tools\rime_patch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4D0985D0-DA2A-397D-845D-2F3DC2E703C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

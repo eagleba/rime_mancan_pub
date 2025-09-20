@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPythonInterp.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/build-v141/CMakeFiles/cmake.verify_globs
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googletest/CMakeLists.txt
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googletest/cmake/Config.cmake.in
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googletest/cmake/gtest.pc.in
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googletest/cmake/gtest_main.pc.in
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googletest/cmake/internal_utils.cmake

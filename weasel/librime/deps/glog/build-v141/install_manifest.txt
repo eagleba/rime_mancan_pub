@@ -1,0 +1,14 @@
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/glog.lib
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/export.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/logging.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/raw_logging.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/stl_logging.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/vlog_is_on.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/log_severity.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/platform.h
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/libglog.pc
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-modules.cmake
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-config.cmake
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-config-version.cmake
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-targets.cmake
+F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-targets-release.cmake

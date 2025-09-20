@@ -1,0 +1,11 @@
+prefix=F:/3.Projects/mancan_v1/weasel/librime/thirdparty
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib
+includedir=F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include
+
+Name: Marisa
+Description: Matching Algorithm with Recursively Implemented StorAge
+Version: 0.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -lmarisa

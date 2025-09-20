@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64E16BE6-FC77-3C0A-9CB4-2E862EDAF709}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>leveldb</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">leveldb.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">leveldb</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\include;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\.;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LEVELDB_COMPILE_LIBRARY;LEVELDB_PLATFORM_WINDOWS=1;_UNICODE;UNICODE;_HAS_EXCEPTIONS=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LEVELDB_COMPILE_LIBRARY;LEVELDB_PLATFORM_WINDOWS=1;_UNICODE;UNICODE;_HAS_EXCEPTIONS=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\include;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\.;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\include;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\.;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/3.Projects/mancan_v1/weasel/librime/deps/leveldb -BF:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141 --check-stamp-file F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSymbolExists.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckSymbolExists.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\cmake\leveldbConfig.cmake.in;F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\port_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\include\port\port_config.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\builder.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\builder.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\c.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_impl.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_impl.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_iter.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_iter.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\dbformat.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\dbformat.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\dumpfile.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\filename.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\filename.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_format.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_reader.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_reader.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_writer.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_writer.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\memtable.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\memtable.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\repair.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\skiplist.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\snapshot.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\table_cache.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\table_cache.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_edit.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_edit.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_set.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_set.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\write_batch_internal.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\write_batch.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\port_stdcxx.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\port.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\thread_annotations.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block_builder.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block_builder.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\filter_block.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\filter_block.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\format.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\format.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\iterator_wrapper.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\iterator.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\merger.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\merger.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\table_builder.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\table.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\two_level_iterator.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\two_level_iterator.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\arena.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\arena.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\bloom.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\cache.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\coding.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\coding.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\comparator.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\crc32c.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\crc32c.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\env.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\filter_policy.cc" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\hash.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\hash.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\logging.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\logging.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\mutexlock.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\no_destructor.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\options.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\random.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\status.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\c.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\cache.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\comparator.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\db.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\dumpfile.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\env.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\export.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\filter_policy.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\iterator.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\options.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\slice.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\status.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\table_builder.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\table.h" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\write_batch.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\env_windows.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\windows_logger.h" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\helpers\memenv\memenv.cc" />
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\helpers\memenv\memenv.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\ZERO_CHECK.vcxproj">
+      <Project>{A5E69409-0CB9-3961-85E0-6E6780C84BEC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

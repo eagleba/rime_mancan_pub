@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D357108-7B55-3B77-8B4F-815EA86C180E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>rime_api_console</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\build-v141\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rime_api_console.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rime_api_console</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\build-v141\src;F:\3.Projects\mancan_v1\weasel\librime\src;F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto;F:\3.Projects\mancan_v1\boost_1_89_0;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_NO_ABBREVIATED_SEVERITIES;BOOST_UUID_RANDOM_PROVIDER_FORCE_WINCRYPT;RIME_VERSION="1.7.3";GOOGLE_GLOG_DLL_DECL=;Opencc_BUILT_AS_STATIC;RIME_BUILD_SHARED_LIBS;RIME_EXTRA_MODULES=;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_REGEX_NO_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_NO_ABBREVIATED_SEVERITIES;BOOST_UUID_RANDOM_PROVIDER_FORCE_WINCRYPT;RIME_VERSION=\"1.7.3\";GOOGLE_GLOG_DLL_DECL=;Opencc_BUILT_AS_STATIC;RIME_BUILD_SHARED_LIBS;RIME_EXTRA_MODULES=;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_REGEX_NO_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\build-v141\src;F:\3.Projects\mancan_v1\weasel\librime\src;F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto;F:\3.Projects\mancan_v1\boost_1_89_0;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\build-v141\src;F:\3.Projects\mancan_v1\weasel\librime\src;F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto;F:\3.Projects\mancan_v1\boost_1_89_0;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\rime.lib;F:\3.Projects\mancan_v1\boost_1_89_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-s-x64-1_89.lib;bcrypt.lib;F:\3.Projects\mancan_v1\boost_1_89_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-s-x64-1_89.lib;synchronization.lib;F:\3.Projects\mancan_v1\boost_1_89_0\lib64-msvc-14.1\libboost_regex-vc141-mt-s-x64-1_89.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\capnp.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\kj.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\glog.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\yaml-cpp.lib;legacy_stdio_definitions.lib;msvcrt.lib;ucrt.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\leveldb.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\marisa.lib;F:\3.Projects\mancan_v1\weasel\librime\thirdparty\lib\opencc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib;F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/3.Projects/mancan_v1/weasel/librime/build-v141/bin/Release/rime_api_console.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/3.Projects/mancan_v1/weasel/librime/build-v141/bin/Release/rime_api_console.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\tools\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/3.Projects/mancan_v1/weasel/librime/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/3.Projects/mancan_v1/weasel/librime -BF:/3.Projects/mancan_v1/weasel/librime/build-v141 --check-stamp-file F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\build-v141\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\tools\rime_api_console.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\ZERO_CHECK.vcxproj">
+      <Project>{44D91DCE-4D45-3D7C-9374-3BC132B6D633}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj">
+      <Project>{9197ED93-2229-3154-BFC9-649EF5A7A8E1}</Project>
+      <Name>rime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

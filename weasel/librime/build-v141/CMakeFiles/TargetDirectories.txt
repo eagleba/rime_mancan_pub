@@ -1,0 +1,13 @@
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/CMakeFiles/uninstall.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/CMakeFiles/INSTALL.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/CMakeFiles/ALL_BUILD.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/CMakeFiles/ZERO_CHECK.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/proto/CMakeFiles/rime-proto-objs.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/proto/CMakeFiles/INSTALL.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/plugins/CMakeFiles/INSTALL.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/src/CMakeFiles/rime.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/src/CMakeFiles/INSTALL.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools/CMakeFiles/rime_api_console.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools/CMakeFiles/rime_proto_console.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools/CMakeFiles/rime_patch.dir
+F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools/CMakeFiles/INSTALL.dir

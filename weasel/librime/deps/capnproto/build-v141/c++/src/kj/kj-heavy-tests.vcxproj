@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0811E9ED-6527-372E-ABF7-83FECC05C3FE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>kj-heavy-tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">kj-heavy-tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">kj-heavy-tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /wo4503</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;KJ_USE_FIBERS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;KJ_USE_FIBERS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\kj-http.lib;Release\kj-gzip.lib;Release\kj-tls.lib;Release\kj-async.lib;Release\kj-test.lib;Release\kj.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/build-v141/c++/src/kj/Release/kj-heavy-tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/build-v141/c++/src/kj/Release/kj-heavy-tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/c++/src/kj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/3.Projects/mancan_v1/weasel/librime/deps/capnproto -BF:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/build-v141 --check-stamp-file F:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/build-v141/c++/src/kj/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;D:\Program\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-xthread-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-coroutine-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-unix-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-unix-xthread-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-win32-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-win32-xthread-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-io-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\async-queue-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\refcount-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\string-tree-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\encoding-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\arena-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\units-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\tuple-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\one-of-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\function-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\filesystem-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\filesystem-disk-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\parse\common-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\parse\char-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\compat\url-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\compat\http-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\compat\gzip-test.c++" />
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\kj\compat\tls-test.c++" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\ZERO_CHECK.vcxproj">
+      <Project>{D3D503CB-CEA5-3148-BBE9-167A4D0D0C2B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\kj.vcxproj">
+      <Project>{8196FDB1-071A-3531-8DD6-7E8C8625846B}</Project>
+      <Name>kj</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\kj-async.vcxproj">
+      <Project>{DA9F79B3-206A-3E86-BC39-AB1C95F7C32F}</Project>
+      <Name>kj-async</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\kj-gzip.vcxproj">
+      <Project>{679E9BDD-0FB8-3609-8FF4-974A39183E92}</Project>
+      <Name>kj-gzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\kj-http.vcxproj">
+      <Project>{FB39B51C-396F-3D00-A2BA-3A77C686333A}</Project>
+      <Name>kj-http</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\kj-test.vcxproj">
+      <Project>{367FE5D1-4417-3738-AD94-502ED6255877}</Project>
+      <Name>kj-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\kj-tls.vcxproj">
+      <Project>{A4DFF3F7-EC01-3F63-A899-22FEC54821F8}</Project>
+      <Name>kj-tls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

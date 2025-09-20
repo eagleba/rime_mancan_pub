@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_iter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\dbformat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\dumpfile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\filename.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\memtable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\repair.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\table_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_set.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\write_batch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\filter_block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\merger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\table_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\two_level_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\arena.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\bloom.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\coding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\comparator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\crc32c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\env.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\filter_policy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\logging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\status.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\env_windows.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\helpers\memenv\memenv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\include\port\port_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\db_iter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\dbformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\filename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\log_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\memtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\skiplist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\snapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\table_cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_edit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\version_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\db\write_batch_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\port_stdcxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\port\thread_annotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\filter_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\iterator_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\merger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\table\two_level_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\arena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\crc32c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\mutexlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\no_destructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\db.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\dumpfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\filter_policy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\table_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\include\leveldb\write_batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\util\windows_logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\helpers\memenv\memenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C407C094-4698-3671-801F-C11402DEC52C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B5F4CE39-3677-3407-B717-55EEEE0B8BEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

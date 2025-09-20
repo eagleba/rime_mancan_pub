@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\type-id.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\error-reporter.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\lexer.capnp.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\lexer.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\grammar.capnp.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\parser.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\generics.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\node-translator.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\compiler\compiler.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\schema-parser.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\serialize-text.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CF9B7E12-52B6-31F9-877E-CB7E1A1DF9CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

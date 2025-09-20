@@ -1,0 +1,6 @@
+F:/3.Projects/mancan_v1/weasel/librime/dist/share/cmake/rime/RimeConfig.cmake
+F:/3.Projects/mancan_v1/weasel/librime/dist/include/rime_api.h
+F:/3.Projects/mancan_v1/weasel/librime/dist/include/rime_levers_api.h
+F:/3.Projects/mancan_v1/weasel/librime/dist/lib/rime.lib
+F:/3.Projects/mancan_v1/weasel/librime/dist/lib/rime.dll
+F:/3.Projects/mancan_v1/weasel/librime/dist/bin/rime_patch.exe

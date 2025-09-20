@@ -1,0 +1,428 @@
+0000	40 65 63 68 6f 20 6f 66  66 0a 73 65 74 6c 6f 63   @echo off.setloc
+0010	61 6c 20 45 6e 61 62 6c  65 45 78 74 65 6e 73 69   al EnableExtensi
+0020	6f 6e 73 0a 0a 73 65 74  20 22 4c 4f 47 3d 25 7e   ons..set "LOG=%~
+0030	64 70 30 5f 62 75 69 6c  64 5f 76 31 34 31 2e 6c   dp0_build_v141.l
+0040	6f 67 22 0a 65 63 68 6f  20 3d 3d 3d 3d 3d 20 5b   og".echo ===== [
+0050	25 64 61 74 65 25 20 25  74 69 6d 65 25 5d 20 73   %date% %time%] s
+0060	74 61 72 74 20 3d 3d 3d  3d 3d 3e 20 22 25 4c 4f   tart =====> "%LO
+0070	47 25 22 0a 63 61 6c 6c  20 3a 6d 61 69 6e 20 3e   G%".call :main >
+0080	3e 20 22 25 4c 4f 47 25  22 20 32 3e 26 31 0a 73   > "%LOG%" 2>&1.s
+0090	65 74 20 22 52 43 3d 25  65 72 72 6f 72 6c 65 76   et "RC=%errorlev
+00a0	65 6c 25 22 0a 65 63 68  6f 20 3d 3d 3d 3d 3d 20   el%".echo ===== 
+00b0	5b 25 64 61 74 65 25 20  25 74 69 6d 65 25 5d 20   [%date% %time%] 
+00c0	65 6e 64 20 72 63 3d 25  52 43 25 20 3d 3d 3d 3d   end rc=%RC% ====
+00d0	3d 3e 3e 20 22 25 4c 4f  47 25 22 0a 65 78 69 74   =>> "%LOG%".exit
+00e0	20 2f 62 20 25 52 43 25  0a 0a 3a 6d 61 69 6e 0a    /b %RC%..:main.
+00f0	72 65 6d 20 45 6e 73 75  72 65 20 77 6f 72 6b 69   rem Ensure worki
+0100	6e 67 20 64 69 72 65 63  74 6f 72 79 20 69 73 20   ng directory is 
+0110	6c 69 62 72 69 6d 65 20  72 6f 6f 74 0a 63 64 20   librime root.cd 
+0120	2f 64 20 25 7e 64 70 30  0a 73 65 74 20 22 52 49   /d %~dp0.set "RI
+0130	4d 45 5f 52 4f 4f 54 3d  25 63 64 25 22 0a 0a 72   ME_ROOT=%cd%"..r
+0140	65 6d 20 56 53 20 74 6f  6f 6c 63 68 61 69 6e 20   em VS toolchain 
+0150	28 76 31 34 31 29 20 61  6e 64 20 63 6d 61 6b 65   (v141) and cmake
+0160	20 70 61 74 68 0a 63 61  6c 6c 20 22 44 3a 5c 50    path.call "D:\P
+0170	72 6f 67 72 61 6d 5c 4d  69 63 72 6f 73 6f 66 74   rogram\Microsoft
+0180	20 56 69 73 75 61 6c 20  53 74 75 64 69 6f 5c 32    Visual Studio\2
+0190	30 32 32 5c 43 6f 6d 6d  75 6e 69 74 79 5c 56 43   022\Community\VC
+01a0	5c 41 75 78 69 6c 69 61  72 79 5c 42 75 69 6c 64   \Auxiliary\Build
+01b0	5c 76 63 76 61 72 73 36  34 2e 62 61 74 22 0a 69   \vcvars64.bat".i
+01c0	66 20 65 72 72 6f 72 6c  65 76 65 6c 20 31 20 67   f errorlevel 1 g
+01d0	6f 74 6f 20 3a 65 0a 73  65 74 20 22 43 4d 41 4b   oto :e.set "CMAK
+01e0	45 5f 45 58 45 3d 44 3a  5c 50 72 6f 67 72 61 6d   E_EXE=D:\Program
+01f0	5c 4d 69 63 72 6f 73 6f  66 74 20 56 69 73 75 61   \Microsoft Visua
+0200	6c 20 53 74 75 64 69 6f  5c 32 30 32 32 5c 43 6f   l Studio\2022\Co
+0210	6d 6d 75 6e 69 74 79 5c  43 6f 6d 6d 6f 6e 37 5c   mmunity\Common7\
+0220	49 44 45 5c 43 6f 6d 6d  6f 6e 45 78 74 65 6e 73   IDE\CommonExtens
+0230	69 6f 6e 73 5c 4d 69 63  72 6f 73 6f 66 74 5c 43   ions\Microsoft\C
+0240	4d 61 6b 65 5c 43 4d 61  6b 65 5c 62 69 6e 5c 63   Make\CMake\bin\c
+0250	6d 61 6b 65 2e 65 78 65  22 0a 0a 72 65 6d 20 43   make.exe"..rem C
+0260	6f 6e 66 69 67 75 72 65  20 76 31 34 31 20 65 6e   onfigure v141 en
+0270	76 20 28 6d 61 74 63 68  65 73 20 42 6f 6f 73 74   v (matches Boost
+0280	20 31 2e 38 39 20 76 63  31 34 31 29 0a 28 0a 20    1.89 vc141).(. 
+0290	20 65 63 68 6f 20 72 65  6d 20 65 6e 76 20 66 6f    echo rem env fo
+02a0	72 20 56 53 32 30 31 37  20 74 6f 6f 6c 73 65 74   r VS2017 toolset
+02b0	20 28 76 31 34 31 29 0a  20 20 65 63 68 6f 20 73    (v141).  echo s
+02c0	65 74 20 52 49 4d 45 5f  52 4f 4f 54 3d 25 52 49   et RIME_ROOT=%RI
+02d0	4d 45 5f 52 4f 4f 54 25  0a 20 20 65 63 68 6f 20   ME_ROOT%.  echo 
+02e0	73 65 74 20 42 4f 4f 53  54 5f 52 4f 4f 54 3d 46   set BOOST_ROOT=F
+02f0	3a 5c 33 2e 50 72 6f 6a  65 63 74 73 5c 6d 61 6e   :\3.Projects\man
+0300	63 61 6e 5f 76 31 5c 62  6f 6f 73 74 5f 31 5f 38   can_v1\boost_1_8
+0310	39 5f 30 0a 20 20 65 63  68 6f 20 73 65 74 20 42   9_0.  echo set B
+0320	4f 4f 53 54 5f 4c 49 42  52 41 52 59 44 49 52 3d   OOST_LIBRARYDIR=
+0330	46 3a 5c 33 2e 50 72 6f  6a 65 63 74 73 5c 6d 61   F:\3.Projects\ma
+0340	6e 63 61 6e 5f 76 31 5c  62 6f 6f 73 74 5f 31 5f   ncan_v1\boost_1_
+0350	38 39 5f 30 5c 6c 69 62  36 34 2d 6d 73 76 63 2d   89_0\lib64-msvc-
+0360	31 34 2e 31 0a 20 20 65  63 68 6f 20 73 65 74 20   14.1.  echo set 
+0370	42 4a 41 4d 5f 54 4f 4f  4c 53 45 54 3d 6d 73 76   BJAM_TOOLSET=msv
+0380	63 2d 31 34 2e 31 0a 20  20 65 63 68 6f 20 73 65   c-14.1.  echo se
+0390	74 20 43 4d 41 4b 45 5f  47 45 4e 45 52 41 54 4f   t CMAKE_GENERATO
+03a0	52 3d 22 56 69 73 75 61  6c 20 53 74 75 64 69 6f   R="Visual Studio
+03b0	20 31 37 20 32 30 32 32  22 0a 20 20 65 63 68 6f    17 2022".  echo
+03c0	20 73 65 74 20 50 4c 41  54 46 4f 52 4d 5f 54 4f    set PLATFORM_TO
+03d0	4f 4c 53 45 54 3d 76 31  34 31 0a 29 20 3e 20 22   OLSET=v141.) > "
+03e0	25 52 49 4d 45 5f 52 4f  4f 54 25 5c 65 6e 76 2e   %RIME_ROOT%\env.
+03f0	62 61 74 22 0a 0a 72 65  6d 20 50 72 65 70 61 72   bat"..rem Prepar
+0400	65 20 74 68 69 72 64 70  61 72 74 79 20 70 72 65   e thirdparty pre
+0410	66 69 78 20 61 6e 64 20  69 6e 6a 65 63 74 20 70   fix and inject p
+0420	72 65 62 75 69 6c 74 20  64 65 70 73 20 28 63 61   rebuilt deps (ca
+0430	70 6e 70 72 6f 74 6f 2f  67 6c 6f 67 2f 79 61 6d   pnproto/glog/yam
+0440	6c 2d 63 70 70 29 0a 69  66 20 6e 6f 74 20 65 78   l-cpp).if not ex
+0450	69 73 74 20 22 25 52 49  4d 45 5f 52 4f 4f 54 25   ist "%RIME_ROOT%
+0460	5c 74 68 69 72 64 70 61  72 74 79 5c 69 6e 63 6c   \thirdparty\incl
+0470	75 64 65 22 20 6d 6b 64  69 72 20 22 25 52 49 4d   ude" mkdir "%RIM
+0480	45 5f 52 4f 4f 54 25 5c  74 68 69 72 64 70 61 72   E_ROOT%\thirdpar
+0490	74 79 5c 69 6e 63 6c 75  64 65 22 0a 69 66 20 65   ty\include".if e
+04a0	72 72 6f 72 6c 65 76 65  6c 20 31 20 67 6f 74 6f   rrorlevel 1 goto
+04b0	20 3a 65 0a 69 66 20 6e  6f 74 20 65 78 69 73 74    :e.if not exist
+04c0	20 22 25 52 49 4d 45 5f  52 4f 4f 54 25 5c 74 68    "%RIME_ROOT%\th
+04d0	69 72 64 70 61 72 74 79  5c 6c 69 62 22 20 6d 6b   irdparty\lib" mk
+04e0	64 69 72 20 22 25 52 49  4d 45 5f 52 4f 4f 54 25   dir "%RIME_ROOT%
+04f0	5c 74 68 69 72 64 70 61  72 74 79 5c 6c 69 62 22   \thirdparty\lib"
+0500	0a 69 66 20 65 72 72 6f  72 6c 65 76 65 6c 20 31   .if errorlevel 1
+0510	20 67 6f 74 6f 20 3a 65  0a 0a 78 63 6f 70 79 20    goto :e..xcopy 
+0520	2f 65 20 2f 79 20 22 25  52 49 4d 45 5f 52 4f 4f   /e /y "%RIME_ROO
+0530	54 25 5c 64 65 70 73 5c  63 61 70 6e 70 72 6f 74   T%\deps\capnprot
+0540	6f 5c 69 6e 73 74 61 6c  6c 5f 73 74 61 74 69 63   o\install_static
+0550	5c 69 6e 63 6c 75 64 65  5c 2a 22 20 22 25 52 49   \include\*" "%RI
+0560	4d 45 5f 52 4f 4f 54 25  5c 74 68 69 72 64 70 61   ME_ROOT%\thirdpa
+0570	72 74 79 5c 69 6e 63 6c  75 64 65 5c 22 20 3e 6e   rty\include\" >n
+0580	75 6c 0a 78 63 6f 70 79  20 2f 79 20 20 20 20 22   ul.xcopy /y    "
+0590	25 52 49 4d 45 5f 52 4f  4f 54 25 5c 64 65 70 73   %RIME_ROOT%\deps
+05a0	5c 63 61 70 6e 70 72 6f  74 6f 5c 69 6e 73 74 61   \capnproto\insta
+05b0	6c 6c 5f 73 74 61 74 69  63 5c 6c 69 62 5c 2a 2e   ll_static\lib\*.
+05c0	6c 69 62 22 20 22 25 52  49 4d 45 5f 52 4f 4f 54   lib" "%RIME_ROOT
+05d0	25 5c 74 68 69 72 64 70  61 72 74 79 5c 6c 69 62   %\thirdparty\lib
+05e0	5c 22 20 3e 6e 75 6c 0a  78 63 6f 70 79 20 2f 65   \" >nul.xcopy /e
+05f0	20 2f 79 20 22 25 52 49  4d 45 5f 52 4f 4f 54 25    /y "%RIME_ROOT%
+0600	5c 64 65 70 73 5c 67 6c  6f 67 5c 69 6e 73 74 61   \deps\glog\insta
+0610	6c 6c 5c 69 6e 63 6c 75  64 65 5c 2a 22 20 22 25   ll\include\*" "%
+0620	52 49 4d 45 5f 52 4f 4f  54 25 5c 74 68 69 72 64   RIME_ROOT%\third
+0630	70 61 72 74 79 5c 69 6e  63 6c 75 64 65 5c 22 20   party\include\" 
+0640	3e 6e 75 6c 0a 78 63 6f  70 79 20 2f 79 20 20 20   >nul.xcopy /y   
+0650	20 22 25 52 49 4d 45 5f  52 4f 4f 54 25 5c 64 65    "%RIME_ROOT%\de
+0660	70 73 5c 67 6c 6f 67 5c  69 6e 73 74 61 6c 6c 5c   ps\glog\install\
+0670	6c 69 62 5c 2a 2e 6c 69  62 22 20 22 25 52 49 4d   lib\*.lib" "%RIM
+0680	45 5f 52 4f 4f 54 25 5c  74 68 69 72 64 70 61 72   E_ROOT%\thirdpar
+0690	74 79 5c 6c 69 62 5c 22  20 3e 6e 75 6c 0a 78 63   ty\lib\" >nul.xc
+06a0	6f 70 79 20 2f 65 20 2f  79 20 22 25 52 49 4d 45   opy /e /y "%RIME
+06b0	5f 52 4f 4f 54 25 5c 64  65 70 73 5c 79 61 6d 6c   _ROOT%\deps\yaml
+06c0	2d 63 70 70 5c 69 6e 73  74 61 6c 6c 5c 69 6e 63   -cpp\install\inc
+06d0	6c 75 64 65 5c 2a 22 20  22 25 52 49 4d 45 5f 52   lude\*" "%RIME_R
+06e0	4f 4f 54 25 5c 74 68 69  72 64 70 61 72 74 79 5c   OOT%\thirdparty\
+06f0	69 6e 63 6c 75 64 65 5c  22 20 3e 6e 75 6c 0a 78   include\" >nul.x
+0700	63 6f 70 79 20 2f 79 20  20 20 20 22 25 52 49 4d   copy /y    "%RIM
+0710	45 5f 52 4f 4f 54 25 5c  64 65 70 73 5c 79 61 6d   E_ROOT%\deps\yam
+0720	6c 2d 63 70 70 5c 69 6e  73 74 61 6c 6c 5c 6c 69   l-cpp\install\li
+0730	62 5c 79 61 6d 6c 2d 63  70 70 2e 6c 69 62 22 20   b\yaml-cpp.lib" 
+0740	22 25 52 49 4d 45 5f 52  4f 4f 54 25 5c 74 68 69   "%RIME_ROOT%\thi
+0750	72 64 70 61 72 74 79 5c  6c 69 62 5c 22 20 3e 6e   rdparty\lib\" >n
+0760	75 6c 0a 0a 72 65 6d 20  31 29 20 6c 65 76 65 6c   ul..rem 1) level
+0770	64 62 20 2d 3e 20 74 68  69 72 64 70 61 72 74 79   db -> thirdparty
+0780	20 28 73 74 61 74 69 63  20 2f 4d 54 2c 20 43 2b    (static /MT, C+
+0790	2b 31 37 29 0a 22 25 43  4d 41 4b 45 5f 45 58 45   +17)."%CMAKE_EXE
+07a0	25 22 20 2d 53 20 22 25  52 49 4d 45 5f 52 4f 4f   %" -S "%RIME_ROO
+07b0	54 25 5c 64 65 70 73 5c  6c 65 76 65 6c 64 62 22   T%\deps\leveldb"
+07c0	20 2d 42 20 22 25 52 49  4d 45 5f 52 4f 4f 54 25    -B "%RIME_ROOT%
+07d0	5c 64 65 70 73 5c 6c 65  76 65 6c 64 62 5c 62 75   \deps\leveldb\bu
+07e0	69 6c 64 2d 76 31 34 31  22 20 2d 47 20 22 56 69   ild-v141" -G "Vi
+07f0	73 75 61 6c 20 53 74 75  64 69 6f 20 31 37 20 32   sual Studio 17 2
+0800	30 32 32 22 20 2d 54 20  76 31 34 31 20 2d 44 43   022" -T v141 -DC
+0810	4d 41 4b 45 5f 43 4f 4e  46 49 47 55 52 41 54 49   MAKE_CONFIGURATI
+0820	4f 4e 5f 54 59 50 45 53  3d 52 65 6c 65 61 73 65   ON_TYPES=Release
+0830	20 2d 44 4c 45 56 45 4c  44 42 5f 42 55 49 4c 44    -DLEVELDB_BUILD
+0840	5f 54 45 53 54 53 3d 4f  46 46 20 2d 44 4c 45 56   _TESTS=OFF -DLEV
+0850	45 4c 44 42 5f 42 55 49  4c 44 5f 42 45 4e 43 48   ELDB_BUILD_BENCH
+0860	4d 41 52 4b 53 3d 4f 46  46 20 2d 44 42 55 49 4c   MARKS=OFF -DBUIL
+0870	44 5f 53 48 41 52 45 44  5f 4c 49 42 53 3d 4f 46   D_SHARED_LIBS=OF
+0880	46 20 2d 44 43 4d 41 4b  45 5f 49 4e 53 54 41 4c   F -DCMAKE_INSTAL
+0890	4c 5f 50 52 45 46 49 58  3d 22 25 52 49 4d 45 5f   L_PREFIX="%RIME_
+08a0	52 4f 4f 54 25 5c 74 68  69 72 64 70 61 72 74 79   ROOT%\thirdparty
+08b0	22 20 2d 44 43 4d 41 4b  45 5f 43 58 58 5f 46 4c   " -DCMAKE_CXX_FL
+08c0	41 47 53 5f 52 45 4c 45  41 53 45 3d 22 2f 4d 54   AGS_RELEASE="/MT
+08d0	20 2f 4f 32 20 2f 4f 62  32 20 2f 44 4e 44 45 42    /O2 /Ob2 /DNDEB
+08e0	55 47 20 2f 73 74 64 3a  63 2b 2b 31 37 22 20 2d   UG /std:c++17" -
+08f0	44 43 4d 41 4b 45 5f 43  5f 46 4c 41 47 53 5f 52   DCMAKE_C_FLAGS_R
+0900	45 4c 45 41 53 45 3d 22  2f 4d 54 20 2f 4f 32 20   ELEASE="/MT /O2 
+0910	2f 4f 62 32 20 2f 44 4e  44 45 42 55 47 22 0a 69   /Ob2 /DNDEBUG".i
+0920	66 20 65 72 72 6f 72 6c  65 76 65 6c 20 31 20 67   f errorlevel 1 g
+0930	6f 74 6f 20 3a 65 0a 22  25 43 4d 41 4b 45 5f 45   oto :e."%CMAKE_E
+0940	58 45 25 22 20 2d 2d 62  75 69 6c 64 20 22 25 52   XE%" --build "%R
+0950	49 4d 45 5f 52 4f 4f 54  25 5c 64 65 70 73 5c 6c   IME_ROOT%\deps\l
+0960	65 76 65 6c 64 62 5c 62  75 69 6c 64 2d 76 31 34   eveldb\build-v14
+0970	31 22 20 2d 2d 63 6f 6e  66 69 67 20 52 65 6c 65   1" --config Rele
+0980	61 73 65 20 2d 2d 74 61  72 67 65 74 20 49 4e 53   ase --target INS
+0990	54 41 4c 4c 0a 69 66 20  65 72 72 6f 72 6c 65 76   TALL.if errorlev
+09a0	65 6c 20 31 20 67 6f 74  6f 20 3a 65 0a 0a 72 65   el 1 goto :e..re
+09b0	6d 20 32 29 20 6d 61 72  69 73 61 20 2d 3e 20 74   m 2) marisa -> t
+09c0	68 69 72 64 70 61 72 74  79 20 28 73 74 61 74 69   hirdparty (stati
+09d0	63 20 2f 4d 54 2c 20 43  2b 2b 31 37 29 0a 22 25   c /MT, C++17)."%
+09e0	43 4d 41 4b 45 5f 45 58  45 25 22 20 2d 53 20 22   CMAKE_EXE%" -S "
+09f0	25 52 49 4d 45 5f 52 4f  4f 54 25 5c 64 65 70 73   %RIME_ROOT%\deps
+0a00	5c 6d 61 72 69 73 61 2d  74 72 69 65 22 20 2d 42   \marisa-trie" -B
+0a10	20 22 25 52 49 4d 45 5f  52 4f 4f 54 25 5c 64 65    "%RIME_ROOT%\de
+0a20	70 73 5c 6d 61 72 69 73  61 2d 74 72 69 65 5c 62   ps\marisa-trie\b
+0a30	75 69 6c 64 2d 76 31 34  31 22 20 2d 47 20 22 56   uild-v141" -G "V
+0a40	69 73 75 61 6c 20 53 74  75 64 69 6f 20 31 37 20   isual Studio 17 
+0a50	32 30 32 32 22 20 2d 54  20 76 31 34 31 20 2d 44   2022" -T v141 -D
+0a60	43 4d 41 4b 45 5f 43 4f  4e 46 49 47 55 52 41 54   CMAKE_CONFIGURAT
+0a70	49 4f 4e 5f 54 59 50 45  53 3d 52 65 6c 65 61 73   ION_TYPES=Releas
+0a80	65 20 2d 44 43 4d 41 4b  45 5f 49 4e 53 54 41 4c   e -DCMAKE_INSTAL
+0a90	4c 5f 50 52 45 46 49 58  3d 22 25 52 49 4d 45 5f   L_PREFIX="%RIME_
+0aa0	52 4f 4f 54 25 5c 74 68  69 72 64 70 61 72 74 79   ROOT%\thirdparty
+0ab0	22 20 2d 44 43 4d 41 4b  45 5f 43 58 58 5f 46 4c   " -DCMAKE_CXX_FL
+0ac0	41 47 53 5f 52 45 4c 45  41 53 45 3d 22 2f 4d 54   AGS_RELEASE="/MT
+0ad0	20 2f 4f 32 20 2f 4f 62  32 20 2f 44 4e 44 45 42    /O2 /Ob2 /DNDEB
+0ae0	55 47 20 2f 73 74 64 3a  63 2b 2b 31 37 22 20 2d   UG /std:c++17" -
+0af0	44 43 4d 41 4b 45 5f 43  5f 46 4c 41 47 53 5f 52   DCMAKE_C_FLAGS_R
+0b00	45 4c 45 41 53 45 3d 22  2f 4d 54 20 2f 4f 32 20   ELEASE="/MT /O2 
+0b10	2f 4f 62 32 20 2f 44 4e  44 45 42 55 47 22 0a 69   /Ob2 /DNDEBUG".i
+0b20	66 20 65 72 72 6f 72 6c  65 76 65 6c 20 31 20 67   f errorlevel 1 g
+0b30	6f 74 6f 20 3a 65 0a 22  25 43 4d 41 4b 45 5f 45   oto :e."%CMAKE_E
+0b40	58 45 25 22 20 2d 2d 62  75 69 6c 64 20 22 25 52   XE%" --build "%R
+0b50	49 4d 45 5f 52 4f 4f 54  25 5c 64 65 70 73 5c 6d   IME_ROOT%\deps\m
+0b60	61 72 69 73 61 2d 74 72  69 65 5c 62 75 69 6c 64   arisa-trie\build
+0b70	2d 76 31 34 31 22 20 2d  2d 63 6f 6e 66 69 67 20   -v141" --config 
+0b80	52 65 6c 65 61 73 65 20  2d 2d 74 61 72 67 65 74   Release --target
+0b90	20 49 4e 53 54 41 4c 4c  0a 69 66 20 65 72 72 6f    INSTALL.if erro
+0ba0	72 6c 65 76 65 6c 20 31  20 67 6f 74 6f 20 3a 65   rlevel 1 goto :e
+0bb0	0a 0a 72 65 6d 20 33 29  20 6f 70 65 6e 63 63 20   ..rem 3) opencc 
+0bc0	2d 3e 20 74 68 69 72 64  70 61 72 74 79 20 28 73   -> thirdparty (s
+0bd0	74 61 74 69 63 20 2f 4d  54 2c 20 43 2b 2b 31 37   tatic /MT, C++17
+0be0	2c 20 6e 6f 20 74 65 73  74 73 29 0a 22 25 43 4d   , no tests)."%CM
+0bf0	41 4b 45 5f 45 58 45 25  22 20 2d 53 20 22 25 52   AKE_EXE%" -S "%R
+0c00	49 4d 45 5f 52 4f 4f 54  25 5c 64 65 70 73 5c 6f   IME_ROOT%\deps\o
+0c10	70 65 6e 63 63 22 20 2d  42 20 22 25 52 49 4d 45   pencc" -B "%RIME
+0c20	5f 52 4f 4f 54 25 5c 64  65 70 73 5c 6f 70 65 6e   _ROOT%\deps\open
+0c30	63 63 5c 62 75 69 6c 64  2d 76 31 34 31 22 20 2d   cc\build-v141" -
+0c40	47 20 22 56 69 73 75 61  6c 20 53 74 75 64 69 6f   G "Visual Studio
+0c50	20 31 37 20 32 30 32 32  22 20 2d 54 20 76 31 34    17 2022" -T v14
+0c60	31 20 2d 44 43 4d 41 4b  45 5f 43 4f 4e 46 49 47   1 -DCMAKE_CONFIG
+0c70	55 52 41 54 49 4f 4e 5f  54 59 50 45 53 3d 52 65   URATION_TYPES=Re
+0c80	6c 65 61 73 65 20 2d 44  42 55 49 4c 44 5f 53 48   lease -DBUILD_SH
+0c90	41 52 45 44 5f 4c 49 42  53 3d 4f 46 46 20 2d 44   ARED_LIBS=OFF -D
+0ca0	42 55 49 4c 44 5f 54 45  53 54 49 4e 47 3d 4f 46   BUILD_TESTING=OF
+0cb0	46 20 2d 44 43 4d 41 4b  45 5f 49 4e 53 54 41 4c   F -DCMAKE_INSTAL
+0cc0	4c 5f 50 52 45 46 49 58  3d 22 25 52 49 4d 45 5f   L_PREFIX="%RIME_
+0cd0	52 4f 4f 54 25 5c 74 68  69 72 64 70 61 72 74 79   ROOT%\thirdparty
+0ce0	22 20 2d 44 43 4d 41 4b  45 5f 43 58 58 5f 46 4c   " -DCMAKE_CXX_FL
+0cf0	41 47 53 5f 52 45 4c 45  41 53 45 3d 22 2f 4d 54   AGS_RELEASE="/MT
+0d00	20 2f 4f 32 20 2f 4f 62  32 20 2f 44 4e 44 45 42    /O2 /Ob2 /DNDEB
+0d10	55 47 20 2f 73 74 64 3a  63 2b 2b 31 37 22 20 2d   UG /std:c++17" -
+0d20	44 43 4d 41 4b 45 5f 43  5f 46 4c 41 47 53 5f 52   DCMAKE_C_FLAGS_R
+0d30	45 4c 45 41 53 45 3d 22  2f 4d 54 20 2f 4f 32 20   ELEASE="/MT /O2 
+0d40	2f 4f 62 32 20 2f 44 4e  44 45 42 55 47 22 0a 69   /Ob2 /DNDEBUG".i
+0d50	66 20 65 72 72 6f 72 6c  65 76 65 6c 20 31 20 67   f errorlevel 1 g
+0d60	6f 74 6f 20 3a 65 0a 22  25 43 4d 41 4b 45 5f 45   oto :e."%CMAKE_E
+0d70	58 45 25 22 20 2d 2d 62  75 69 6c 64 20 22 25 52   XE%" --build "%R
+0d80	49 4d 45 5f 52 4f 4f 54  25 5c 64 65 70 73 5c 6f   IME_ROOT%\deps\o
+0d90	70 65 6e 63 63 5c 62 75  69 6c 64 2d 76 31 34 31   pencc\build-v141
+0da0	22 20 2d 2d 63 6f 6e 66  69 67 20 52 65 6c 65 61   " --config Relea
+0db0	73 65 20 2d 2d 74 61 72  67 65 74 20 49 4e 53 54   se --target INST
+0dc0	41 4c 4c 0a 69 66 20 65  72 72 6f 72 6c 65 76 65   ALL.if errorleve
+0dd0	6c 20 31 20 67 6f 74 6f  20 3a 65 0a 0a 72 65 6d   l 1 goto :e..rem
+0de0	20 34 29 20 6c 69 62 72  69 6d 65 20 28 76 31 34    4) librime (v14
+0df0	31 2c 20 73 74 61 74 69  63 20 64 65 70 73 2c 20   1, static deps, 
+0e00	43 2b 2b 31 37 2c 20 6e  6f 20 74 65 73 74 73 29   C++17, no tests)
+0e10	0a 72 65 6d 20 e4 bd bf  e7 94 a8 e5 8a a8 e6 80   .rem ...........
+0e20	81 e8 bf 90 e8 a1 8c e6  97 b6 e5 ba 93 28 2f 4d   .............(/M
+0e30	44 29 e5 8c b9 e9 85 8d  e9 a2 84 e7 bc 96 e8 af   D)..............
+0e40	91 e7 9a 84 63 61 70 6e  70 72 6f 74 6f 2f 67 6c   ....capnproto/gl
+0e50	6f 67 2f 79 61 6d 6c 2d  63 70 70 e5 ba 93 0a 22   og/yaml-cpp...."
+0e60	25 43 4d 41 4b 45 5f 45  58 45 25 22 20 2d 53 20   %CMAKE_EXE%" -S 
+0e70	22 25 52 49 4d 45 5f 52  4f 4f 54 25 22 20 2d 42   "%RIME_ROOT%" -B
+0e80	20 22 25 52 49 4d 45 5f  52 4f 4f 54 25 5c 62 75    "%RIME_ROOT%\bu
+0e90	69 6c 64 2d 76 31 34 31  22 20 2d 47 20 22 56 69   ild-v141" -G "Vi
+0ea0	73 75 61 6c 20 53 74 75  64 69 6f 20 31 37 20 32   sual Studio 17 2
+0eb0	30 32 32 22 20 2d 54 20  76 31 34 31 20 2d 44 43   022" -T v141 -DC
+0ec0	4d 41 4b 45 5f 43 4f 4e  46 49 47 55 52 41 54 49   MAKE_CONFIGURATI
+0ed0	4f 4e 5f 54 59 50 45 53  3d 52 65 6c 65 61 73 65   ON_TYPES=Release
+0ee0	20 2d 44 42 55 49 4c 44  5f 53 54 41 54 49 43 3d    -DBUILD_STATIC=
+0ef0	4f 4e 20 2d 44 42 55 49  4c 44 5f 53 48 41 52 45   ON -DBUILD_SHARE
+0f00	44 5f 4c 49 42 53 3d 4f  4e 20 2d 44 42 55 49 4c   D_LIBS=ON -DBUIL
+0f10	44 5f 54 45 53 54 3d 4f  46 46 20 2d 44 45 4e 41   D_TEST=OFF -DENA
+0f20	42 4c 45 5f 4c 4f 47 47  49 4e 47 3d 4f 4e 20 2d   BLE_LOGGING=ON -
+0f30	44 42 4f 4f 53 54 5f 55  53 45 5f 43 58 58 31 31   DBOOST_USE_CXX11
+0f40	3d 4f 4e 20 2d 44 43 4d  41 4b 45 5f 49 4e 53 54   =ON -DCMAKE_INST
+0f50	41 4c 4c 5f 50 52 45 46  49 58 3d 22 25 52 49 4d   ALL_PREFIX="%RIM
+0f60	45 5f 52 4f 4f 54 25 5c  64 69 73 74 22 20 2d 44   E_ROOT%\dist" -D
+0f70	43 4d 41 4b 45 5f 50 52  45 46 49 58 5f 50 41 54   CMAKE_PREFIX_PAT
+0f80	48 3d 22 25 52 49 4d 45  5f 52 4f 4f 54 25 5c 74   H="%RIME_ROOT%\t
+0f90	68 69 72 64 70 61 72 74  79 22 20 2d 44 43 4d 41   hirdparty" -DCMA
+0fa0	4b 45 5f 43 58 58 5f 53  54 41 4e 44 41 52 44 3d   KE_CXX_STANDARD=
+0fb0	31 37 20 2d 44 43 4d 41  4b 45 5f 43 58 58 5f 46   17 -DCMAKE_CXX_F
+0fc0	4c 41 47 53 5f 52 45 4c  45 41 53 45 3d 22 2f 4d   LAGS_RELEASE="/M
+0fd0	44 20 2f 4f 32 20 2f 4f  62 32 20 2f 44 4e 44 45   D /O2 /Ob2 /DNDE
+0fe0	42 55 47 20 2f 44 47 4c  4f 47 5f 4e 4f 5f 41 42   BUG /DGLOG_NO_AB
+0ff0	42 52 45 56 49 41 54 45  44 5f 53 45 56 45 52 49   BREVIATED_SEVERI
+1000	54 49 45 53 20 2f 73 74  64 3a 63 2b 2b 31 37 22   TIES /std:c++17"
+1010	20 2d 44 43 4d 41 4b 45  5f 43 5f 46 4c 41 47 53    -DCMAKE_C_FLAGS
+1020	5f 52 45 4c 45 41 53 45  3d 22 2f 4d 44 20 2f 4f   _RELEASE="/MD /O
+1030	32 20 2f 4f 62 32 20 2f  44 4e 44 45 42 55 47 22   2 /Ob2 /DNDEBUG"
+1040	20 2d 44 42 4f 4f 53 54  5f 52 4f 4f 54 3d 22 46    -DBOOST_ROOT="F
+1050	3a 5c 33 2e 50 72 6f 6a  65 63 74 73 5c 6d 61 6e   :\3.Projects\man
+1060	63 61 6e 5f 76 31 5c 62  6f 6f 73 74 5f 31 5f 38   can_v1\boost_1_8
+1070	39 5f 30 22 20 2d 44 42  4f 4f 53 54 5f 4c 49 42   9_0" -DBOOST_LIB
+1080	52 41 52 59 44 49 52 3d  22 46 3a 5c 33 2e 50 72   RARYDIR="F:\3.Pr
+1090	6f 6a 65 63 74 73 5c 6d  61 6e 63 61 6e 5f 76 31   ojects\mancan_v1
+10a0	5c 62 6f 6f 73 74 5f 31  5f 38 39 5f 30 5c 6c 69   \boost_1_89_0\li
+10b0	62 36 34 2d 6d 73 76 63  2d 31 34 2e 31 22 0a 69   b64-msvc-14.1".i
+10c0	66 20 65 72 72 6f 72 6c  65 76 65 6c 20 31 20 67   f errorlevel 1 g
+10d0	6f 74 6f 20 3a 65 0a 22  25 43 4d 41 4b 45 5f 45   oto :e."%CMAKE_E
+10e0	58 45 25 22 20 2d 2d 62  75 69 6c 64 20 22 25 52   XE%" --build "%R
+10f0	49 4d 45 5f 52 4f 4f 54  25 5c 62 75 69 6c 64 2d   IME_ROOT%\build-
+1100	76 31 34 31 22 20 2d 2d  63 6f 6e 66 69 67 20 52   v141" --config R
+1110	65 6c 65 61 73 65 20 2d  2d 74 61 72 67 65 74 20   elease --target 
+1120	49 4e 53 54 41 4c 4c 0a  69 66 20 65 72 72 6f 72   INSTALL.if error
+1130	6c 65 76 65 6c 20 31 20  67 6f 74 6f 20 3a 65 0a   level 1 goto :e.
+1140	0a 65 63 68 6f 20 72 65  61 64 79 2e 0a 65 78 69   .echo ready..exi
+1150	74 20 2f 62 20 30 0a 0a  3a 65 0a 65 78 69 74 20   t /b 0..:e.exit 
+1160	2f 62 20 25 65 72 72 6f  72 6c 65 76 65 6c 25 0a   /b %errorlevel%.
+1170	0a 40 65 63 68 6f 20 6f  66 66 0a 73 65 74 6c 6f   .@echo off.setlo
+1180	63 61 6c 0a 63 61 6c 6c  20 22 44 3a 5c 50 72 6f   cal.call "D:\Pro
+1190	67 72 61 6d 5c 4d 69 63  72 6f 73 6f 66 74 20 56   gram\Microsoft V
+11a0	69 73 75 61 6c 20 53 74  75 64 69 6f 5c 32 30 32   isual Studio\202
+11b0	32 5c 43 6f 6d 6d 75 6e  69 74 79 5c 56 43 5c 41   2\Community\VC\A
+11c0	75 78 69 6c 69 61 72 79  5c 42 75 69 6c 64 5c 76   uxiliary\Build\v
+11d0	63 76 61 72 73 36 34 2e  62 61 74 22 0a 63 64 20   cvars64.bat".cd 
+11e0	2f 64 20 46 3a 5c 33 2e  50 72 6f 6a 65 63 74 73   /d F:\3.Projects
+11f0	5c 6d 61 6e 63 61 6e 5f  76 31 5c 77 65 61 73 65   \mancan_v1\wease
+1200	6c 5c 6c 69 62 72 69 6d  65 0a 73 65 74 20 43 4d   l\librime.set CM
+1210	41 4b 45 5f 50 52 45 46  49 58 5f 50 41 54 48 3d   AKE_PREFIX_PATH=
+1220	46 3a 5c 33 2e 50 72 6f  6a 65 63 74 73 5c 6d 61   F:\3.Projects\ma
+1230	6e 63 61 6e 5f 76 31 5c  77 65 61 73 65 6c 5c 6c   ncan_v1\weasel\l
+1240	69 62 72 69 6d 65 5c 64  65 70 73 5c 63 61 70 6e   ibrime\deps\capn
+1250	70 72 6f 74 6f 5c 69 6e  73 74 61 6c 6c 5f 73 74   proto\install_st
+1260	61 74 69 63 3b 46 3a 5c  33 2e 50 72 6f 6a 65 63   atic;F:\3.Projec
+1270	74 73 5c 6d 61 6e 63 61  6e 5f 76 31 5c 77 65 61   ts\mancan_v1\wea
+1280	73 65 6c 5c 6c 69 62 72  69 6d 65 5c 64 65 70 73   sel\librime\deps
+1290	5c 79 61 6d 6c 2d 63 70  70 5c 69 6e 73 74 61 6c   \yaml-cpp\instal
+12a0	6c 3b 46 3a 5c 33 2e 50  72 6f 6a 65 63 74 73 5c   l;F:\3.Projects\
+12b0	6d 61 6e 63 61 6e 5f 76  31 5c 77 65 61 73 65 6c   mancan_v1\weasel
+12c0	5c 6c 69 62 72 69 6d 65  5c 64 65 70 73 5c 67 6c   \librime\deps\gl
+12d0	6f 67 5c 69 6e 73 74 61  6c 6c 3b 46 3a 5c 33 2e   og\install;F:\3.
+12e0	50 72 6f 6a 65 63 74 73  5c 6d 61 6e 63 61 6e 5f   Projects\mancan_
+12f0	76 31 5c 77 65 61 73 65  6c 5c 6c 69 62 72 69 6d   v1\weasel\librim
+1300	65 5c 74 68 69 72 64 70  61 72 74 79 0a 73 65 74   e\thirdparty.set
+1310	20 50 41 54 48 3d 44 3a  5c 50 72 6f 67 72 61 6d    PATH=D:\Program
+1320	5c 4d 69 63 72 6f 73 6f  66 74 20 56 69 73 75 61   \Microsoft Visua
+1330	6c 20 53 74 75 64 69 6f  5c 32 30 32 32 5c 43 6f   l Studio\2022\Co
+1340	6d 6d 75 6e 69 74 79 5c  43 6f 6d 6d 6f 6e 37 5c   mmunity\Common7\
+1350	49 44 45 5c 43 6f 6d 6d  6f 6e 45 78 74 65 6e 73   IDE\CommonExtens
+1360	69 6f 6e 73 5c 4d 69 63  72 6f 73 6f 66 74 5c 43   ions\Microsoft\C
+1370	4d 61 6b 65 5c 43 4d 61  6b 65 5c 62 69 6e 3b 25   Make\CMake\bin;%
+1380	50 41 54 48 25 0a 69 66  20 6e 6f 74 20 65 78 69   PATH%.if not exi
+1390	73 74 20 74 68 69 72 64  70 61 72 74 79 5c 69 6e   st thirdparty\in
+13a0	63 6c 75 64 65 20 6d 6b  64 69 72 20 74 68 69 72   clude mkdir thir
+13b0	64 70 61 72 74 79 5c 69  6e 63 6c 75 64 65 0a 69   dparty\include.i
+13c0	66 20 6e 6f 74 20 65 78  69 73 74 20 74 68 69 72   f not exist thir
+13d0	64 70 61 72 74 79 5c 6c  69 62 20 6d 6b 64 69 72   dparty\lib mkdir
+13e0	20 74 68 69 72 64 70 61  72 74 79 5c 6c 69 62 0a    thirdparty\lib.
+13f0	78 63 6f 70 79 20 2f 65  20 2f 79 20 64 65 70 73   xcopy /e /y deps
+1400	5c 63 61 70 6e 70 72 6f  74 6f 5c 69 6e 73 74 61   \capnproto\insta
+1410	6c 6c 5f 73 74 61 74 69  63 5c 69 6e 63 6c 75 64   ll_static\includ
+1420	65 5c 2a 20 74 68 69 72  64 70 61 72 74 79 5c 69   e\* thirdparty\i
+1430	6e 63 6c 75 64 65 5c 20  3e 6e 75 6c 0a 78 63 6f   nclude\ >nul.xco
+1440	70 79 20 2f 79 20 64 65  70 73 5c 63 61 70 6e 70   py /y deps\capnp
+1450	72 6f 74 6f 5c 69 6e 73  74 61 6c 6c 5f 73 74 61   roto\install_sta
+1460	74 69 63 5c 6c 69 62 5c  2a 2e 6c 69 62 20 74 68   tic\lib\*.lib th
+1470	69 72 64 70 61 72 74 79  5c 6c 69 62 5c 20 3e 6e   irdparty\lib\ >n
+1480	75 6c 0a 78 63 6f 70 79  20 2f 65 20 2f 79 20 64   ul.xcopy /e /y d
+1490	65 70 73 5c 67 6c 6f 67  5c 69 6e 73 74 61 6c 6c   eps\glog\install
+14a0	5c 69 6e 63 6c 75 64 65  5c 2a 20 74 68 69 72 64   \include\* third
+14b0	70 61 72 74 79 5c 69 6e  63 6c 75 64 65 5c 20 3e   party\include\ >
+14c0	6e 75 6c 0a 78 63 6f 70  79 20 2f 79 20 64 65 70   nul.xcopy /y dep
+14d0	73 5c 67 6c 6f 67 5c 69  6e 73 74 61 6c 6c 5c 6c   s\glog\install\l
+14e0	69 62 5c 2a 2e 6c 69 62  20 74 68 69 72 64 70 61   ib\*.lib thirdpa
+14f0	72 74 79 5c 6c 69 62 5c  20 3e 6e 75 6c 0a 78 63   rty\lib\ >nul.xc
+1500	6f 70 79 20 2f 65 20 2f  79 20 64 65 70 73 5c 79   opy /e /y deps\y
+1510	61 6d 6c 2d 63 70 70 5c  69 6e 73 74 61 6c 6c 5c   aml-cpp\install\
+1520	69 6e 63 6c 75 64 65 5c  2a 20 74 68 69 72 64 70   include\* thirdp
+1530	61 72 74 79 5c 69 6e 63  6c 75 64 65 5c 20 3e 6e   arty\include\ >n
+1540	75 6c 0a 78 63 6f 70 79  20 2f 79 20 64 65 70 73   ul.xcopy /y deps
+1550	5c 79 61 6d 6c 2d 63 70  70 5c 69 6e 73 74 61 6c   \yaml-cpp\instal
+1560	6c 5c 6c 69 62 5c 79 61  6d 6c 2d 63 70 70 2e 6c   l\lib\yaml-cpp.l
+1570	69 62 20 74 68 69 72 64  70 61 72 74 79 5c 6c 69   ib thirdparty\li
+1580	62 5c 20 3e 6e 75 6c 0a  63 6d 61 6b 65 20 2d 53   b\ >nul.cmake -S
+1590	20 64 65 70 73 5c 6c 65  76 65 6c 64 62 20 2d 42    deps\leveldb -B
+15a0	20 64 65 70 73 5c 6c 65  76 65 6c 64 62 5c 62 75    deps\leveldb\bu
+15b0	69 6c 64 2d 76 31 34 31  20 2d 47 20 22 56 69 73   ild-v141 -G "Vis
+15c0	75 61 6c 20 53 74 75 64  69 6f 20 31 37 20 32 30   ual Studio 17 20
+15d0	32 32 22 20 2d 54 20 76  31 34 31 20 2d 44 43 4d   22" -T v141 -DCM
+15e0	41 4b 45 5f 43 4f 4e 46  49 47 55 52 41 54 49 4f   AKE_CONFIGURATIO
+15f0	4e 5f 54 59 50 45 53 3d  52 65 6c 65 61 73 65 20   N_TYPES=Release 
+1600	2d 44 4c 45 56 45 4c 44  42 5f 42 55 49 4c 44 5f   -DLEVELDB_BUILD_
+1610	54 45 53 54 53 3d 4f 46  46 20 2d 44 4c 45 56 45   TESTS=OFF -DLEVE
+1620	4c 44 42 5f 42 55 49 4c  44 5f 42 45 4e 43 48 4d   LDB_BUILD_BENCHM
+1630	41 52 4b 53 3d 4f 46 46  20 2d 44 42 55 49 4c 44   ARKS=OFF -DBUILD
+1640	5f 53 48 41 52 45 44 5f  4c 49 42 53 3d 4f 46 46   _SHARED_LIBS=OFF
+1650	20 2d 44 43 4d 41 4b 45  5f 49 4e 53 54 41 4c 4c    -DCMAKE_INSTALL
+1660	5f 50 52 45 46 49 58 3d  22 25 43 44 25 5c 74 68   _PREFIX="%CD%\th
+1670	69 72 64 70 61 72 74 79  22 20 2d 44 43 4d 41 4b   irdparty" -DCMAK
+1680	45 5f 43 58 58 5f 46 4c  41 47 53 5f 52 45 4c 45   E_CXX_FLAGS_RELE
+1690	41 53 45 3d 22 2f 4d 54  20 2f 4f 32 20 2f 4f 62   ASE="/MT /O2 /Ob
+16a0	32 20 2f 44 4e 44 45 42  55 47 22 20 2d 44 43 4d   2 /DNDEBUG" -DCM
+16b0	41 4b 45 5f 43 5f 46 4c  41 47 53 5f 52 45 4c 45   AKE_C_FLAGS_RELE
+16c0	41 53 45 3d 22 2f 4d 54  20 2f 4f 32 20 2f 4f 62   ASE="/MT /O2 /Ob
+16d0	32 20 2f 44 4e 44 45 42  55 47 22 0a 69 66 20 65   2 /DNDEBUG".if e
+16e0	72 72 6f 72 6c 65 76 65  6c 20 31 20 65 78 69 74   rrorlevel 1 exit
+16f0	20 2f 62 20 31 0a 63 6d  61 6b 65 20 2d 2d 62 75    /b 1.cmake --bu
+1700	69 6c 64 20 64 65 70 73  5c 6c 65 76 65 6c 64 62   ild deps\leveldb
+1710	5c 62 75 69 6c 64 2d 76  31 34 31 20 2d 2d 63 6f   \build-v141 --co
+1720	6e 66 69 67 20 52 65 6c  65 61 73 65 20 2d 2d 74   nfig Release --t
+1730	61 72 67 65 74 20 49 4e  53 54 41 4c 4c 0a 69 66   arget INSTALL.if
+1740	20 65 72 72 6f 72 6c 65  76 65 6c 20 31 20 65 78    errorlevel 1 ex
+1750	69 74 20 2f 62 20 31 0a  63 6d 61 6b 65 20 2d 53   it /b 1.cmake -S
+1760	20 64 65 70 73 5c 6d 61  72 69 73 61 2d 74 72 69    deps\marisa-tri
+1770	65 20 2d 42 20 64 65 70  73 5c 6d 61 72 69 73 61   e -B deps\marisa
+1780	2d 74 72 69 65 5c 62 75  69 6c 64 2d 76 31 34 31   -trie\build-v141
+1790	20 2d 47 20 22 56 69 73  75 61 6c 20 53 74 75 64    -G "Visual Stud
+17a0	69 6f 20 31 37 20 32 30  32 32 22 20 2d 54 20 76   io 17 2022" -T v
+17b0	31 34 31 20 2d 44 43 4d  41 4b 45 5f 43 4f 4e 46   141 -DCMAKE_CONF
+17c0	49 47 55 52 41 54 49 4f  4e 5f 54 59 50 45 53 3d   IGURATION_TYPES=
+17d0	52 65 6c 65 61 73 65 20  2d 44 43 4d 41 4b 45 5f   Release -DCMAKE_
+17e0	49 4e 53 54 41 4c 4c 5f  50 52 45 46 49 58 3d 22   INSTALL_PREFIX="
+17f0	25 43 44 25 5c 74 68 69  72 64 70 61 72 74 79 22   %CD%\thirdparty"
+1800	20 2d 44 43 4d 41 4b 45  5f 43 58 58 5f 46 4c 41    -DCMAKE_CXX_FLA
+1810	47 53 5f 52 45 4c 45 41  53 45 3d 22 2f 4d 54 20   GS_RELEASE="/MT 
+1820	2f 4f 32 20 2f 4f 62 32  20 2f 44 4e 44 45 42 55   /O2 /Ob2 /DNDEBU
+1830	47 22 20 2d 44 43 4d 41  4b 45 5f 43 5f 46 4c 41   G" -DCMAKE_C_FLA
+1840	47 53 5f 52 45 4c 45 41  53 45 3d 22 2f 4d 54 20   GS_RELEASE="/MT 
+1850	2f 4f 32 20 2f 4f 62 32  20 2f 44 4e 44 45 42 55   /O2 /Ob2 /DNDEBU
+1860	47 22 0a 69 66 20 65 72  72 6f 72 6c 65 76 65 6c   G".if errorlevel
+1870	20 31 20 65 78 69 74 20  2f 62 20 31 0a 63 6d 61    1 exit /b 1.cma
+1880	6b 65 20 2d 2d 62 75 69  6c 64 20 64 65 70 73 5c   ke --build deps\
+1890	6d 61 72 69 73 61 2d 74  72 69 65 5c 62 75 69 6c   marisa-trie\buil
+18a0	64 2d 76 31 34 31 20 2d  2d 63 6f 6e 66 69 67 20   d-v141 --config 
+18b0	52 65 6c 65 61 73 65 20  2d 2d 74 61 72 67 65 74   Release --target
+18c0	20 49 4e 53 54 41 4c 4c  0a 69 66 20 65 72 72 6f    INSTALL.if erro
+18d0	72 6c 65 76 65 6c 20 31  20 65 78 69 74 20 2f 62   rlevel 1 exit /b
+18e0	20 31 0a 63 6d 61 6b 65  20 2d 53 20 64 65 70 73    1.cmake -S deps
+18f0	5c 6f 70 65 6e 63 63 20  2d 42 20 64 65 70 73 5c   \opencc -B deps\
+1900	6f 70 65 6e 63 63 5c 62  75 69 6c 64 2d 76 31 34   opencc\build-v14
+1910	31 20 2d 47 20 22 56 69  73 75 61 6c 20 53 74 75   1 -G "Visual Stu
+1920	64 69 6f 20 31 37 20 32  30 32 32 22 20 2d 54 20   dio 17 2022" -T 
+1930	76 31 34 31 20 2d 44 43  4d 41 4b 45 5f 43 4f 4e   v141 -DCMAKE_CON
+1940	46 49 47 55 52 41 54 49  4f 4e 5f 54 59 50 45 53   FIGURATION_TYPES
+1950	3d 52 65 6c 65 61 73 65  20 2d 44 42 55 49 4c 44   =Release -DBUILD
+1960	5f 53 48 41 52 45 44 5f  4c 49 42 53 3d 4f 46 46   _SHARED_LIBS=OFF
+1970	20 2d 44 42 55 49 4c 44  5f 54 45 53 54 49 4e 47    -DBUILD_TESTING
+1980	3d 4f 46 46 20 2d 44 43  4d 41 4b 45 5f 49 4e 53   =OFF -DCMAKE_INS
+1990	54 41 4c 4c 5f 50 52 45  46 49 58 3d 22 25 43 44   TALL_PREFIX="%CD
+19a0	25 5c 74 68 69 72 64 70  61 72 74 79 22 20 2d 44   %\thirdparty" -D
+19b0	43 4d 41 4b 45 5f 43 58  58 5f 46 4c 41 47 53 5f   CMAKE_CXX_FLAGS_
+19c0	52 45 4c 45 41 53 45 3d  22 2f 4d 54 20 2f 4f 32   RELEASE="/MT /O2
+19d0	20 2f 4f 62 32 20 2f 44  4e 44 45 42 55 47 22 20    /Ob2 /DNDEBUG" 
+19e0	2d 44 43 4d 41 4b 45 5f  43 5f 46 4c 41 47 53 5f   -DCMAKE_C_FLAGS_
+19f0	52 45 4c 45 41 53 45 3d  22 2f 4d 54 20 2f 4f 32   RELEASE="/MT /O2
+1a00	20 2f 4f 62 32 20 2f 44  4e 44 45 42 55 47 22 0a    /Ob2 /DNDEBUG".
+1a10	69 66 20 65 72 72 6f 72  6c 65 76 65 6c 20 31 20   if errorlevel 1 
+1a20	65 78 69 74 20 2f 62 20  31 0a 63 6d 61 6b 65 20   exit /b 1.cmake 
+1a30	2d 2d 62 75 69 6c 64 20  64 65 70 73 5c 6f 70 65   --build deps\ope
+1a40	6e 63 63 5c 62 75 69 6c  64 2d 76 31 34 31 20 2d   ncc\build-v141 -
+1a50	2d 63 6f 6e 66 69 67 20  52 65 6c 65 61 73 65 20   -config Release 
+1a60	2d 2d 74 61 72 67 65 74  20 49 4e 53 54 41 4c 4c   --target INSTALL
+1a70	0a 69 66 20 65 72 72 6f  72 6c 65 76 65 6c 20 31   .if errorlevel 1
+1a80	20 65 78 69 74 20 2f 62  20 31 0a 63 61 6c 6c 20    exit /b 1.call 
+1a90	62 75 69 6c 64 2e 62 61  74 20 63 6c 65 61 6e 0a   build.bat clean.
+1aa0	63 61 6c 6c 20 62 75 69  6c 64 2e 62 61 74 20 6c   call build.bat l
+1ab0	69 62 72 69 6d 65 0a 0a                            ibrime..

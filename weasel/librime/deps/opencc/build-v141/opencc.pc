@@ -1,0 +1,11 @@
+prefix=F:/3.Projects/mancan_v1/weasel/librime/thirdparty
+exec_prefix=${prefix}
+libdir=F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib
+includedir=F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include
+
+Name: opencc
+Description: Open Chinese Convert
+Version: 1.1.9
+Requires:
+Libs: -L${libdir} -lopencc
+Cflags: -I${includedir}/opencc

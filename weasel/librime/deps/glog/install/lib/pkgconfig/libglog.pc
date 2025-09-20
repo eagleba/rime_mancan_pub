@@ -1,0 +1,11 @@
+prefix=F:/3.Projects/mancan_v1/weasel/librime/deps/glog/install
+exec_prefix=F:/3.Projects/mancan_v1/weasel/librime/deps/glog/install/bin
+libdir=F:/3.Projects/mancan_v1/weasel/librime/deps/glog/install/lib
+includedir=F:/3.Projects/mancan_v1/weasel/librime/deps/glog/install/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.6.0
+Libs: -L${libdir} -lglog
+Libs.private: -ldbghelp
+Cflags: -I${includedir}

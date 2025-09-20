@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\CMakeFiles\e226e39b6b990636630494961baa663e\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{77BE744C-AE40-381D-8F79-92748E1C50F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

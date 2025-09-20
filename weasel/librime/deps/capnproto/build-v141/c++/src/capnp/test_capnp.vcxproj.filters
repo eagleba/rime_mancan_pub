@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\CMakeFiles\ed08dda05adb4edb49d19d4d3e26c74c\json-test.capnp.c++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\CMakeFiles\428e672ba2f32a0221a5208a9d4c8dfe\test-import.capnp.c++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\CMakeFiles\428e672ba2f32a0221a5208a9d4c8dfe\test-import2.capnp.c++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\CMakeFiles\428e672ba2f32a0221a5208a9d4c8dfe\test.capnp.c++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\CMakeFiles\8bee4ea836bd2f0ed66107b336b16683\test_capnp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\c++\src\capnp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\CMakeFiles\test_capnp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{14547923-06D4-3A33-B3E7-3DCF9E49D1AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

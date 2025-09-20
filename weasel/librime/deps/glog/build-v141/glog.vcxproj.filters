@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\demangle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\logging.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\raw_logging.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\symbolize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\utilities.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\vlog_is_on.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\signalhandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\$(Configuration)\port.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{0BD1BBCC-0911-397E-A663-85F4386A9CAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

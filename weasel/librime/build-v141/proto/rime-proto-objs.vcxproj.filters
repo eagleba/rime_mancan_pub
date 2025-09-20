@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto\rime_proto.capnp.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\CMakeFiles\4f2f621d77c00b472ab30536259a2e13\rime_proto.capnp.c++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\proto\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{77BE744C-AE40-381D-8F79-92748E1C50F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4D0985D0-DA2A-397D-845D-2F3DC2E703C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

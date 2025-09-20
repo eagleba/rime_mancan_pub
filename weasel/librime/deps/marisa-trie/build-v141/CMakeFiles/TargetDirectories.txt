@@ -1,0 +1,6 @@
+F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141/CMakeFiles/marisa.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141/CMakeFiles/INSTALL.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141/CMakeFiles/ALL_BUILD.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141/CMakeFiles/ZERO_CHECK.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141/tools/CMakeFiles/marisa-build.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141/tools/CMakeFiles/INSTALL.dir

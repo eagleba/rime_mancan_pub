@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\trie.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\agent.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\grimoire\io\reader.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\grimoire\io\writer.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\grimoire\io\mapper.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\grimoire\trie\louds-trie.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\grimoire\trie\tail.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\grimoire\vector\bit-vector.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\lib\marisa\keyset.cc">
+      <Filter>marisa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\deps\marisa-0.2.6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="marisa">
+      <UniqueIdentifier>{5BED8E7D-AF25-3AD7-AEAF-CD546BE91350}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

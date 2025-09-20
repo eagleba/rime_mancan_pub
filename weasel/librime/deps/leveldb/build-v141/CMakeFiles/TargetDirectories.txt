@@ -1,0 +1,5 @@
+F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141/CMakeFiles/leveldb.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141/CMakeFiles/leveldbutil.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141/CMakeFiles/INSTALL.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141/CMakeFiles/ALL_BUILD.dir
+F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141/CMakeFiles/ZERO_CHECK.dir

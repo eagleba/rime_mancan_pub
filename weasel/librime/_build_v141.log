@@ -1,0 +1,628 @@
+===== [周日 2025/09/14 23:00:53.03] start =====
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.14
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+rem env for VS2017 toolset (v141
+set RIME_ROOT=F:\3.Projects\mancan_v1\weasel\librime
+set BOOST_ROOT=F:\3.Projects\mancan_v1\boost_1_89_0
+set BOOST_LIBRARYDIR=F:\3.Projects\mancan_v1\boost_1_89_0\lib64-msvc-14.1
+set BJAM_TOOLSET=msvc-14.1
+set CMAKE_GENERATOR="Visual Studio 17 2022"
+set PLATFORM_TOOLSET=v141
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at c++/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR Crypto SSL) 
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+-- Configuring done (0.7s)
+-- Generating done (1.7s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/deps/capnproto/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  kj.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj.lib
+  capnp.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp.lib
+  capnpc.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnpc.lib
+  capnp-evolution-tests.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp-evolution-tests.exe
+  kj-async.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-async.lib
+  capnp-json.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp-json.lib
+  capnp_tool.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp.exe
+  capnpc_cpp.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnpc-c++.exe
+  capnp-rpc.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp-rpc.lib
+  kj-http.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-http.lib
+  capnp-websocket.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp-websocket.lib
+  kj-test.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-test.lib
+  capnp-heavy-tests.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp-heavy-tests.exe
+  capnp-tests.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnp-tests.exe
+  capnpc_capnp.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\capnp\Release\capnpc-capnp.exe
+  kj-gzip.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-gzip.lib
+  kj-tls.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-tls.lib
+  kj-heavy-tests.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-heavy-tests.exe
+  kj-tests.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\capnproto\build-v141\c++\src\kj\Release\kj-tests.exe
+  1>
+  -- Install configuration: "Release"
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/CapnProto/CapnProtoTargets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/CapnProto/CapnProtoTargets-release.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/CapnProto/CapnProtoMacros.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/CapnProto/CapnProtoConfig.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/CapnProto/CapnProtoConfigVersion.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/kj.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/common.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/units.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/memory.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/refcount.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/array.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/list.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/vector.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/string.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/string-tree.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/source-location.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/hash.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/table.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/map.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/encoding.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/exception.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/debug.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/arena.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/io.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/tuple.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/one-of.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/function.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/mutex.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/thread.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/threadlocal.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/filesystem.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/time.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/main.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/win32-api-version.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/windows-sanity.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/parse/common.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/parse/char.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/std/iostream.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/kj-test.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/test.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/compat/gtest.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/kj-async.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async-prelude.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async-inl.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async-unix.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async-win32.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async-io.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/async-queue.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/timer.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/kj-http.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/compat/url.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/compat/http.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/kj-tls.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/compat/readiness-io.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/compat/tls.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/kj-gzip.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/kj/compat/gzip.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/capnp.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/c++.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/common.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/blob.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/endian.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/layout.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/orphan.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/list.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/any.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/message.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/capability.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/membrane.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/dynamic.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/schema.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/schema.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/stream.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/schema-lite.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/schema-loader.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/schema-parser.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/pretty-print.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/serialize.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/serialize-async.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/serialize-packed.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/serialize-text.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/pointer-helpers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/generated-header-support.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/raw-schema.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/c++.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/schema.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/stream.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/compat/std-iterator.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/capnp-rpc.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc-prelude.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc-twoparty.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc-twoparty.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/persistent.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/ez-rpc.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/rpc-twoparty.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/persistent.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/capnp-json.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/compat/json.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/compat/json.capnp.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/compat/json.capnp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/capnp-websocket.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/capnp/compat/websocket-rpc.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/capnpc.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/capnp.exe
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/capnpc-c++.exe
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/capnpc-capnp.exe
+CMake Deprecation Warning at cmake/GetCacheVariables.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (include)
+
+
+CMake Warning at CMakeLists.txt:82 (find_package):
+  By not providing "Findgflags.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gflags", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gflags" (requested
+  version 2.2.2) with any of the following names:
+
+    gflagsConfig.cmake
+    gflags-config.cmake
+
+  Add the installation prefix of "gflags" to CMAKE_PREFIX_PATH or set
+  "gflags_DIR" to a directory containing one of the above files.  If "gflags"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Could NOT find Unwind (missing: Unwind_INCLUDE_DIR Unwind_LIBRARY) 
+-- Configuring done (0.5s)
+-- Generating done (0.8s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/deps/glog/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  glogbase.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\glogbase.dir\Release\glogbase.lib
+  glogtest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\glogtest.lib
+  cleanup_immediately_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\cleanup_immediately_unittest.exe
+  cleanup_with_absolute_prefix_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\cleanup_with_absolute_prefix_unittest.exe
+  cleanup_with_relative_prefix_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\cleanup_with_relative_prefix_unittest.exe
+  demangle_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\demangle_unittest.exe
+  glog.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\glog.lib
+  logging_custom_prefix_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\logging_custom_prefix_unittest.exe
+  logging_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\logging_unittest.exe
+  signalhandler_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\signalhandler_unittest.exe
+  stacktrace_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\stacktrace_unittest.exe
+  stl_logging_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\stl_logging_unittest.exe
+  symbolize_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\symbolize_unittest.exe
+  utilities_unittest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\glog\build-v141\Release\utilities_unittest.exe
+  1>
+  -- Install configuration: "Release"
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/glog.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/export.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/logging.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/raw_logging.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/stl_logging.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/vlog_is_on.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/log_severity.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/glog/platform.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/libglog.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-modules.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-config.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-config-version.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-targets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/glog/glog-targets-release.cmake
+CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at test/gtest-1.10.0/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at test/gtest-1.10.0/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at test/gtest-1.10.0/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at test/gtest-1.10.0/googletest/cmake/internal_utils.cmake:243 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  test/gtest-1.10.0/googletest/CMakeLists.txt:91 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.4s)
+-- Generating done (1.4s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  Checking File Globs
+  gmock.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\lib\Release\gmock.lib
+  gmock_main.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\lib\Release\gmock_main.lib
+  gtest.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\lib\Release\gtest.lib
+  gtest_main.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\lib\Release\gtest_main.lib
+  yaml-cpp.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\Release\yaml-cpp.lib
+  yaml-cpp-parse.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\util\Release\parse.exe
+  yaml-cpp-read.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\util\Release\read.exe
+  yaml-cpp-sandbox.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\util\Release\sandbox.exe
+  emitter_test.cpp
+  encoding_test.cpp
+  error_messages_test.cpp
+  gen_emitter_test.cpp
+  handler_spec_test.cpp
+  handler_test.cpp
+  load_node_test.cpp
+F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\test\integration\load_node_test.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\test\yaml-cpp-tests.vcxproj]
+  node_spec_test.cpp
+  main.cpp
+  node_test.cpp
+F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\test\node\node_test.cpp(549): warning C4305: “初始化”: 从“double”到“float”截断 [F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\test\yaml-cpp-tests.vcxproj]
+  ostream_wrapper_test.cpp
+  parser_test.cpp
+  regex_test.cpp
+  正在生成代码...
+  yaml-cpp-tests.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\yaml-cpp\build-v141\test\Release\yaml-cpp-tests.exe
+  1>
+  -- Install configuration: "Release"
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/yaml-cpp.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/anchor.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/binary.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/contrib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/contrib/anchordict.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/contrib/graphbuilder.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/depthguard.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/dll.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/emitfromevents.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/emitter.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/emitterdef.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/emittermanip.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/emitterstyle.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/eventhandler.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/exceptions.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/mark.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/convert.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/impl.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/iterator.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/iterator_fwd.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/memory.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/node.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/node_data.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/node_iterator.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/detail/node_ref.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/emit.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/impl.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/iterator.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/node.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/parse.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/ptr.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/node/type.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/noexcept.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/null.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/ostream_wrapper.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/parser.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/stlemitter.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/traits.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/yaml-cpp/yaml.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/cmake/yaml-cpp/yaml-cpp-targets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/cmake/yaml-cpp/yaml-cpp-config.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/pkgconfig/yaml-cpp.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-actions.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-cardinalities.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-function-mocker.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-generated-actions.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-generated-actions.h.pump
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-generated-function-mockers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-generated-function-mockers.h.pump
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-generated-matchers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-generated-matchers.h.pump
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-matchers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-more-actions.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-more-matchers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-nice-strict.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock-spec-builders.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/gmock.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/custom
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/custom/gmock-generated-actions.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/custom/gmock-generated-actions.h.pump
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/custom/gmock-matchers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/custom/gmock-port.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/custom/README.md
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/gmock-internal-utils.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/gmock-port.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gmock/internal/gmock-pp.h
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gmock.lib
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gmock_main.lib
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gmock.pdb
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gmock_main.pdb
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/gmock.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/gmock_main.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/GTest/GTestTargets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/GTest/GTestTargets-release.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/GTest/GTestConfigVersion.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/GTest/GTestConfig.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-death-test.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-matchers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-message.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-param-test.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-printers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-spi.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-test-part.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest-typed-test.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest_pred_impl.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/gtest_prod.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/custom
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/custom/gtest-port.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/custom/gtest-printers.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/custom/gtest.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/custom/README.md
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-death-test-internal.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-filepath.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-internal.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-param-util.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-port-arch.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-port.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-string.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-type-util.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/gtest/internal/gtest-type-util.h.pump
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gtest.lib
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gtest_main.lib
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gtest.pdb
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/gtest_main.pdb
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/gtest.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/gtest_main.pc
+CMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/deps/leveldb/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  leveldb.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\Release\leveldb.lib
+  leveldbutil.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\leveldb\build-v141\Release\leveldbutil.exe
+  1>
+  -- Install configuration: "Release"
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/leveldb.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/c.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/cache.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/comparator.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/db.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/dumpfile.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/env.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/export.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/filter_policy.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/iterator.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/options.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/slice.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/status.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/table_builder.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/table.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/leveldb/write_batch.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/leveldb/leveldbTargets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/leveldb/leveldbTargets-release.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/leveldb/leveldbConfig.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/leveldb/leveldbConfigVersion.cmake
+-- Configuring done (0.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/deps/marisa-trie/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  marisa.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\marisa-trie\build-v141\Release\marisa.lib
+  marisa-build.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\marisa-trie\build-v141\tools\Release\marisa-build.exe
+  1>
+  -- Install configuration: "Release"
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/marisa.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/agent.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/base.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/exception.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/iostream.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/key.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/keyset.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/query.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/scoped-array.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/scoped-ptr.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/stdio.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/marisa/trie.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/marisa/marisa-targets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/marisa/marisa-targets-release.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/marisa.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/marisa/marisa-config.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/marisa/marisa-version.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/marisa-build.exe
+CMake Deprecation Warning at CMakeLists.txt:20 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Use bundled marisa library.
+CMake Warning (dev) at data/CMakeLists.txt:1 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.2s)
+-- Generating done (0.8s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/deps/opencc/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  marisa.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\deps\marisa-0.2.6\Release\marisa.lib
+  libopencc.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\Release\opencc.lib
+  opencc_dict.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_dict.exe
+  Copying libopencc to directory of opencc_dict
+  opencc.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc.exe
+  opencc_phrase_extract.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\tools\Release\opencc_phrase_extract.exe
+  1>
+  -- Install configuration: "Release"
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/pkgconfig/opencc.pc
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/opencc/OpenCCConfig.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/opencc/OpenCCConfigVersion.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/opencc.lib
+  -- Installing: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/marisa.lib
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/opencc/OpenCCTargets.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/cmake/opencc/OpenCCTargets-release.cmake
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Common.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Config.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Conversion.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/ConversionChain.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Converter.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Dict.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/DictConverter.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/DictEntry.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/DictGroup.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Exception.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Export.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Lexicon.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/MarisaDict.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/MaxMatchSegmentation.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Optional.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/PhraseExtract.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Segmentation.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/Segments.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/SerializableDict.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/SerializedValues.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/SimpleConverter.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/TextDict.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/UTF8StringSlice.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/UTF8Util.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/opencc.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/opencc_config.h
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/BinaryDict.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include/opencc/DartsDict.hpp
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/opencc.exe
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/opencc_dict.exe
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/bin/opencc_phrase_extract.exe
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/STCharacters.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/STPhrases.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TSCharacters.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TSPhrases.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TWVariants.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TWVariantsRevPhrases.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/HKVariants.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/HKVariantsRevPhrases.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/JPVariants.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/JPShinjitaiCharacters.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/JPShinjitaiPhrases.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TWPhrases.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TWPhrasesRev.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/TWVariantsRev.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/HKVariantsRev.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/JPVariantsRev.ocd2
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/hk2s.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/hk2t.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/jp2t.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/s2hk.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/s2t.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/s2tw.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/s2twp.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/t2hk.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/t2jp.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/t2s.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/t2tw.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/tw2s.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/tw2sp.json
+  -- Up-to-date: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/share/opencc/tw2t.json
+CMake Warning (dev) at CMakeLists.txt:4 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found glog: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/glog.lib
+-- Found yaml-cpp: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/yaml-cpp.lib
+-- Found leveldb: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/leveldb.lib
+-- Found marisa: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/marisa.lib
+-- Found opencc: F:/3.Projects/mancan_v1/weasel/librime/thirdparty/lib/opencc.lib
+-- Found X11/keysym.h at F:/3.Projects/mancan_v1/weasel/librime/thirdparty/include
+-- compiled capnproto schemata (sources): F:/3.Projects/mancan_v1/weasel/librime/build-v141/proto//rime_proto.capnp.c++
+-- compiled capnproto schemata (headers): F:/3.Projects/mancan_v1/weasel/librime/build-v141/proto//rime_proto.capnp.h
+-- rime_plugins_libs: 
+-- rime_plugins_modules: 
+-- compiled capnproto schemata (sources): F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools//rime_message.capnp.c++
+-- compiled capnproto schemata (headers): F:/3.Projects/mancan_v1/weasel/librime/build-v141/tools//rime_message.capnp.h
+-- Configuring done (0.2s)
+-- Generating done (0.5s)
+-- Build files have been written to: F:/3.Projects/mancan_v1/weasel/librime/build-v141
+适用于 .NET Framework MSBuild 版本 17.14.23+b0019275e
+
+  rime-proto-objs.vcxproj -> F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto\rime-proto-objs.dir\Release\rime-proto-objs.lib
+capnp.lib(layout.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MT_StaticRelease”(rime_api.obj 中) [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+capnp.lib(message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MT_StaticRelease”(rime_api.obj 中) [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+capnp.lib(arena.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MT_StaticRelease”(rime_api.obj 中) [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+kj.lib(exception.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MT_StaticRelease”(rime_api.obj 中) [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+kj.lib(io.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MT_StaticRelease”(rime_api.obj 中) [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+kj.lib(time.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MT_StaticRelease”(rime_api.obj 中) [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+    正在创建库 F:/3.Projects/mancan_v1/weasel/librime/build-v141/lib/Release/rime.lib 和对象 F:/3.Projects/mancan_v1/weasel/librime/build-v141/lib/Release/rime.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+F:\3.Projects\mancan_v1\weasel\librime\build-v141\lib\Release\rime.dll : fatal error LNK1319: 检测到 6 个不匹配项 [F:\3.Projects\mancan_v1\weasel\librime\build-v141\src\rime.vcxproj]
+===== [周日 2025/09/14 23:03:12.87] end rc=1 =====

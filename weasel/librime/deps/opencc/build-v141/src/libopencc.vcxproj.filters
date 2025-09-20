@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Config.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Conversion.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\ConversionChain.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Converter.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Dict.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DictConverter.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DictEntry.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DictGroup.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Lexicon.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\MarisaDict.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\MaxMatchSegmentation.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\PhraseExtract.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\SerializedValues.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\SimpleConverter.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Segmentation.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\TextDict.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\UTF8StringSlice.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\UTF8Util.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\BinaryDict.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DartsDict.cpp">
+      <Filter>libopencc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Common.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Config.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Conversion.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\ConversionChain.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Converter.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Dict.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DictConverter.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DictEntry.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DictGroup.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Exception.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Export.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Lexicon.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\MarisaDict.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\MaxMatchSegmentation.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Optional.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\PhraseExtract.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Segmentation.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\Segments.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\SerializableDict.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\SerializedValues.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\SimpleConverter.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\TextDict.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\UTF8StringSlice.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\UTF8Util.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\opencc.h">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\src\opencc_config.h">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\BinaryDict.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\DartsDict.hpp">
+      <Filter>libopencc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libopencc">
+      <UniqueIdentifier>{C9F80118-48F4-376C-8A62-A2AA66CA3360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

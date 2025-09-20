@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime_api.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\candidate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\commit_history.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\composition.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\core_module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\deployer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\engine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\key_event.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\key_table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\language.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\menu.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\registry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\resource.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\schema.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\segmentation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\service.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\setup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\signature.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\switcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\ticket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\translation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\auto_patch_config_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\build_info_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\config_compiler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\config_component.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\config_data.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\config_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\default_config_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\legacy_dictionary_config_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\legacy_preset_config_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\config\save_output_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\algo\algebra.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\algo\calculus.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\algo\encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\algo\syllabifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\algo\utilities.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\corrector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\db_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\dict_compiler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\dict_module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\dict_settings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\dictionary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\entry_collector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\level_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\mapped_file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\preset_vocabulary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\prism.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\reverse_lookup_dictionary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\string_table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\table_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\text_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\tsv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\user_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\user_db_recovery_task.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\user_dictionary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\dict\vocabulary.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\abc_segmentor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\affix_segmentor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\ascii_composer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\ascii_segmentor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\charset_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\chord_composer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\contextual_translation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\echo_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\editor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\fallback_segmentor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\filter_commons.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\gears_module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\history_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\key_binder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\matcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\memory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\navigator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\poet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\punctuator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\recognizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\reverse_lookup_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\reverse_lookup_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\schema_list_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\script_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\selector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\shape.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\simplifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\single_char_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\speller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\switch_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\table_translator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\translator_commons.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\uniquifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\gear\unity_table_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\lever\custom_settings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\lever\customizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\lever\deployment_tasks.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\lever\levers_module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\lever\switcher_settings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\src\rime\lever\user_dict_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto\rime-proto-objs.dir\$(Configuration)\rime_proto.capnp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{96205792-B795-344A-B861-FFA973DFAB7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4D0985D0-DA2A-397D-845D-2F3DC2E703C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+rem env for VS2017 toolset (v141)
+set WEASEL_ROOT=%CD%
+set BOOST_ROOT=F:\3.Projects\mancan_v1\boost_1_89_0
+set BOOST_LIBRARYDIR=F:\3.Projects\mancan_v1\boost_1_89_0\lib64-msvc-14.1
+set BJAM_TOOLSET=msvc-14.1
+set CMAKE_GENERATOR="Visual Studio 17 2022"
+set PLATFORM_TOOLSET=v141
+rem Fix glog ERROR macro conflict
+set CMAKE_CXX_FLAGS_RELEASE=/DGLOG_NO_ABBREVIATED_SEVERITIES
+set CMAKE_C_FLAGS_RELEASE=/DGLOG_NO_ABBREVIATED_SEVERITIES

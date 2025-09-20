@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\marisa-trie\build-v141\CMakeFiles\e72f9e180f4912bb8fb4e2a0181e39b1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C616079-70E6-3DC4-B58D-41BF0E6EAD25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

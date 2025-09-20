@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\tools\rime_proto_console.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\tools\rime_message.capnp.c++">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\CMakeFiles\0757fe6ac53c841800ec10acf4e3e7a1\rime_message.capnp.c++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\3.Projects\mancan_v1\weasel\librime\build-v141\proto\rime-proto-objs.dir\$(Configuration)\rime_proto.capnp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{77BE744C-AE40-381D-8F79-92748E1C50F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{96205792-B795-344A-B861-FFA973DFAB7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4D0985D0-DA2A-397D-845D-2F3DC2E703C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

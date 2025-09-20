@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{9047AA04-1944-3584-BD6F-7908376732B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43675D81-0CDB-33C2-BCFF-F002CB8765FF} = {43675D81-0CDB-33C2-BCFF-F002CB8765FF}
+		{5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B} = {5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B}
+		{5B7DC6BC-4DFF-3EB3-B6E1-8ED82D6731DD} = {5B7DC6BC-4DFF-3EB3-B6E1-8ED82D6731DD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{CAE366E1-B9F6-3B3F-B895-E95E950414FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9047AA04-1944-3584-BD6F-7908376732B9} = {9047AA04-1944-3584-BD6F-7908376732B9}
+		{43675D81-0CDB-33C2-BCFF-F002CB8765FF} = {43675D81-0CDB-33C2-BCFF-F002CB8765FF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{43675D81-0CDB-33C2-BCFF-F002CB8765FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "marisa", "marisa.vcxproj", "{5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43675D81-0CDB-33C2-BCFF-F002CB8765FF} = {43675D81-0CDB-33C2-BCFF-F002CB8765FF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "marisa-build", "tools\marisa-build.vcxproj", "{5B7DC6BC-4DFF-3EB3-B6E1-8ED82D6731DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43675D81-0CDB-33C2-BCFF-F002CB8765FF} = {43675D81-0CDB-33C2-BCFF-F002CB8765FF}
+		{5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B} = {5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9047AA04-1944-3584-BD6F-7908376732B9}.Release|x64.ActiveCfg = Release|x64
+		{9047AA04-1944-3584-BD6F-7908376732B9}.Release|x64.Build.0 = Release|x64
+		{CAE366E1-B9F6-3B3F-B895-E95E950414FC}.Release|x64.ActiveCfg = Release|x64
+		{43675D81-0CDB-33C2-BCFF-F002CB8765FF}.Release|x64.ActiveCfg = Release|x64
+		{43675D81-0CDB-33C2-BCFF-F002CB8765FF}.Release|x64.Build.0 = Release|x64
+		{5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B}.Release|x64.ActiveCfg = Release|x64
+		{5B0EF59A-C2C4-3C37-ABB3-364FCBBFB31B}.Release|x64.Build.0 = Release|x64
+		{5B7DC6BC-4DFF-3EB3-B6E1-8ED82D6731DD}.Release|x64.ActiveCfg = Release|x64
+		{5B7DC6BC-4DFF-3EB3-B6E1-8ED82D6731DD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E16857-C1C4-3541-BC18-DC8D9AEDB40F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/build-v141/CMakeFiles/cmake.verify_globs
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googlemock/CMakeLists.txt
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googlemock/cmake/gmock.pc.in
+F:/3.Projects/mancan_v1/weasel/librime/deps/yaml-cpp/test/gtest-1.10.0/googlemock/cmake/gmock_main.pc.in

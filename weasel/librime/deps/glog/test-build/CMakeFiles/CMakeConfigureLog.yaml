@@ -1,0 +1,2342 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+      鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:37銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-413mb4"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-413mb4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-413mb4'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ee76d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:41銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-413mb4\\cmTC_ee76d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ee76d.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-413mb4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ee76d.dir\\Debug\\cmTC_ee76d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_ee76d.dir\\Debug\\cmTC_ee76d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ee76d.dir\\Debug\\cmTC_ee76d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee76d.dir\\Debug\\\\" /Fd"cmTC_ee76d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\Program\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee76d.dir\\Debug\\\\" /Fd"cmTC_ee76d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\Program\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-413mb4\\Debug\\cmTC_ee76d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-413mb4/Debug/cmTC_ee76d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-413mb4/Debug/cmTC_ee76d.lib" /MACHINE:X64  /machine:x64 cmTC_ee76d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ee76d.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-413mb4\\Debug\\cmTC_ee76d.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ee76d.dir\\Debug\\cmTC_ee76d.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ee76d.dir\\Debug\\cmTC_ee76d.tlog\\cmTC_ee76d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-413mb4\\cmTC_ee76d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.05
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': d:/Program/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "d:/Program/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27054.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:90 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-qgn0lk"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-qgn0lk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-qgn0lk'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08478.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:47銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\cmTC_08478.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_08478.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_08478.dir\\Debug\\cmTC_08478.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_08478.dir\\Debug\\cmTC_08478.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_08478.dir\\Debug\\cmTC_08478.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08478.dir\\Debug\\\\" /Fd"cmTC_08478.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08478.dir\\Debug\\\\" /Fd"cmTC_08478.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\src.cxx"
+          src.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\src.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\cmTC_08478.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\cmTC_08478.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\cmTC_08478.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\src.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qgn0lk\\cmTC_08478.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:90 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-cmvtsb"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-cmvtsb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-cmvtsb'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7dcf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:49銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\cmTC_7dcf3.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7dcf3.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7dcf3.dir\\Debug\\cmTC_7dcf3.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_7dcf3.dir\\Debug\\cmTC_7dcf3.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_7dcf3.dir\\Debug\\cmTC_7dcf3.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7dcf3.dir\\Debug\\\\" /Fd"cmTC_7dcf3.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7dcf3.dir\\Debug\\\\" /Fd"cmTC_7dcf3.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\Debug\\cmTC_7dcf3.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-cmvtsb/Debug/cmTC_7dcf3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-cmvtsb/Debug/cmTC_7dcf3.lib" /MACHINE:X64  /machine:x64 cmTC_7dcf3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\cmTC_7dcf3.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\cmTC_7dcf3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\cmTC_7dcf3.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-cmvtsb\\cmTC_7dcf3.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.03
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:90 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-6cdip1"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-6cdip1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-6cdip1'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_231d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:52銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\cmTC_231d1.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_231d1.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_231d1.dir\\Debug\\cmTC_231d1.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_231d1.dir\\Debug\\cmTC_231d1.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_231d1.dir\\Debug\\cmTC_231d1.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_231d1.dir\\Debug\\\\" /Fd"cmTC_231d1.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_231d1.dir\\Debug\\\\" /Fd"cmTC_231d1.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\Debug\\cmTC_231d1.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-6cdip1/Debug/cmTC_231d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-6cdip1/Debug/cmTC_231d1.lib" /MACHINE:X64  /machine:x64 cmTC_231d1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\cmTC_231d1.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\cmTC_231d1.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\cmTC_231d1.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-6cdip1\\cmTC_231d1.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.12
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:96 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include unwind.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-p7ksc5"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-p7ksc5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNWIND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-p7ksc5'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a018.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:56銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\cmTC_8a018.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8a018.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8a018.dir\\Debug\\cmTC_8a018.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_8a018.dir\\Debug\\cmTC_8a018.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_8a018.dir\\Debug\\cmTC_8a018.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8a018.dir\\Debug\\\\" /Fd"cmTC_8a018.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8a018.dir\\Debug\\\\" /Fd"cmTC_8a018.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nwind.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\cmTC_8a018.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\cmTC_8a018.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\cmTC_8a018.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nwind.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-p7ksc5\\cmTC_8a018.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:100 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for _Unwind_Backtrace"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ch51z5"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ch51z5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE__UNWIND_BACKTRACE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ch51z5'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82c32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:49:59銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\cmTC_82c32.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_82c32.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_82c32.dir\\Debug\\cmTC_82c32.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_82c32.dir\\Debug\\cmTC_82c32.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_82c32.dir\\Debug\\cmTC_82c32.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82c32.dir\\Debug\\\\" /Fd"cmTC_82c32.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\CheckSymbolExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82c32.dir\\Debug\\\\" /Fd"cmTC_82c32.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\CheckSymbolExists.cxx"
+          CheckSymbolExists.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\CheckSymbolExists.cxx(2): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nwind.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\cmTC_82c32.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\cmTC_82c32.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\cmTC_82c32.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\CheckSymbolExists.cxx(2): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nwind.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ch51z5\\cmTC_82c32.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include dlfcn.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-qaux85"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-qaux85"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-qaux85'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08077.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:01銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\cmTC_08077.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_08077.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_08077.dir\\Debug\\cmTC_08077.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_08077.dir\\Debug\\cmTC_08077.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_08077.dir\\Debug\\cmTC_08077.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08077.dir\\Debug\\\\" /Fd"cmTC_08077.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_08077.dir\\Debug\\\\" /Fd"cmTC_08077.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渄lfcn.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\cmTC_08077.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\cmTC_08077.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\cmTC_08077.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渄lfcn.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-qaux85\\cmTC_08077.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.20
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:104 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include execinfo.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-49l3mc"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-49l3mc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXECINFO_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-49l3mc'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59169.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:03銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\cmTC_59169.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_59169.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_59169.dir\\Debug\\cmTC_59169.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_59169.dir\\Debug\\cmTC_59169.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_59169.dir\\Debug\\cmTC_59169.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59169.dir\\Debug\\\\" /Fd"cmTC_59169.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59169.dir\\Debug\\\\" /Fd"cmTC_59169.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xecinfo.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\cmTC_59169.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\cmTC_59169.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\cmTC_59169.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xecinfo.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-49l3mc\\cmTC_59169.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:105 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include glob.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mnytaw"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mnytaw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GLOB_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mnytaw'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97b37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:05銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\cmTC_97b37.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_97b37.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_97b37.dir\\Debug\\cmTC_97b37.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_97b37.dir\\Debug\\cmTC_97b37.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_97b37.dir\\Debug\\cmTC_97b37.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_97b37.dir\\Debug\\\\" /Fd"cmTC_97b37.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_97b37.dir\\Debug\\\\" /Fd"cmTC_97b37.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済lob.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\cmTC_97b37.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\cmTC_97b37.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\cmTC_97b37.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済lob.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mnytaw\\cmTC_97b37.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:106 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include inttypes.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-008j6l"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-008j6l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-008j6l'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f725.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:08銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\cmTC_8f725.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8f725.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8f725.dir\\Debug\\cmTC_8f725.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_8f725.dir\\Debug\\cmTC_8f725.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_8f725.dir\\Debug\\cmTC_8f725.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f725.dir\\Debug\\\\" /Fd"cmTC_8f725.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f725.dir\\Debug\\\\" /Fd"cmTC_8f725.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\Debug\\cmTC_8f725.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-008j6l/Debug/cmTC_8f725.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-008j6l/Debug/cmTC_8f725.lib" /MACHINE:X64  /machine:x64 cmTC_8f725.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8f725.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\Debug\\cmTC_8f725.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_8f725.dir\\Debug\\cmTC_8f725.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_8f725.dir\\Debug\\cmTC_8f725.tlog\\cmTC_8f725.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-008j6l\\cmTC_8f725.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:107 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include memory.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-sqxcpt"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-sqxcpt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-sqxcpt'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1f161.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:12銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\cmTC_1f161.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_1f161.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_1f161.dir\\Debug\\cmTC_1f161.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_1f161.dir\\Debug\\cmTC_1f161.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_1f161.dir\\Debug\\cmTC_1f161.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f161.dir\\Debug\\\\" /Fd"cmTC_1f161.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f161.dir\\Debug\\\\" /Fd"cmTC_1f161.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\Debug\\cmTC_1f161.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-sqxcpt/Debug/cmTC_1f161.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-sqxcpt/Debug/cmTC_1f161.lib" /MACHINE:X64  /machine:x64 cmTC_1f161.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1f161.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\Debug\\cmTC_1f161.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_1f161.dir\\Debug\\cmTC_1f161.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_1f161.dir\\Debug\\cmTC_1f161.tlog\\cmTC_1f161.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-sqxcpt\\cmTC_1f161.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:108 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include pwd.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ebzvdg"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ebzvdg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PWD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ebzvdg'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d32d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:17銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\cmTC_d32d5.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d32d5.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d32d5.dir\\Debug\\cmTC_d32d5.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d32d5.dir\\Debug\\cmTC_d32d5.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d32d5.dir\\Debug\\cmTC_d32d5.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d32d5.dir\\Debug\\\\" /Fd"cmTC_d32d5.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d32d5.dir\\Debug\\\\" /Fd"cmTC_d32d5.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減wd.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\cmTC_d32d5.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\cmTC_d32d5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\cmTC_d32d5.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減wd.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ebzvdg\\cmTC_d32d5.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.77
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:109 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-f9hjdf"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-f9hjdf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-f9hjdf'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04a95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:20銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\cmTC_04a95.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_04a95.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_04a95.dir\\Debug\\cmTC_04a95.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_04a95.dir\\Debug\\cmTC_04a95.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_04a95.dir\\Debug\\cmTC_04a95.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_04a95.dir\\Debug\\\\" /Fd"cmTC_04a95.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_04a95.dir\\Debug\\\\" /Fd"cmTC_04a95.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\Debug\\cmTC_04a95.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-f9hjdf/Debug/cmTC_04a95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-f9hjdf/Debug/cmTC_04a95.lib" /MACHINE:X64  /machine:x64 cmTC_04a95.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_04a95.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\Debug\\cmTC_04a95.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_04a95.dir\\Debug\\cmTC_04a95.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_04a95.dir\\Debug\\cmTC_04a95.tlog\\cmTC_04a95.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-f9hjdf\\cmTC_04a95.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:110 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include strings.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-blarz3"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-blarz3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-blarz3'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fddab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:25銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\cmTC_fddab.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fddab.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fddab.dir\\Debug\\cmTC_fddab.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_fddab.dir\\Debug\\cmTC_fddab.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_fddab.dir\\Debug\\cmTC_fddab.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fddab.dir\\Debug\\\\" /Fd"cmTC_fddab.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fddab.dir\\Debug\\\\" /Fd"cmTC_fddab.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟trings.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\cmTC_fddab.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\cmTC_fddab.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\cmTC_fddab.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟trings.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-blarz3\\cmTC_fddab.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:111 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/stat.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rzr69s"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rzr69s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rzr69s'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6489a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:27銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\cmTC_6489a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6489a.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6489a.dir\\Debug\\cmTC_6489a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_6489a.dir\\Debug\\cmTC_6489a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6489a.dir\\Debug\\cmTC_6489a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6489a.dir\\Debug\\\\" /Fd"cmTC_6489a.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6489a.dir\\Debug\\\\" /Fd"cmTC_6489a.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\Debug\\cmTC_6489a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rzr69s/Debug/cmTC_6489a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rzr69s/Debug/cmTC_6489a.lib" /MACHINE:X64  /machine:x64 cmTC_6489a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_6489a.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\Debug\\cmTC_6489a.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_6489a.dir\\Debug\\cmTC_6489a.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6489a.dir\\Debug\\cmTC_6489a.tlog\\cmTC_6489a.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rzr69s\\cmTC_6489a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.00
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:112 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/syscall.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9m5tg0"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9m5tg0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_SYSCALL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9m5tg0'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c2b9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:31銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\cmTC_c2b9c.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c2b9c.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c2b9c.dir\\Debug\\cmTC_c2b9c.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c2b9c.dir\\Debug\\cmTC_c2b9c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c2b9c.dir\\Debug\\cmTC_c2b9c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c2b9c.dir\\Debug\\\\" /Fd"cmTC_c2b9c.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c2b9c.dir\\Debug\\\\" /Fd"cmTC_c2b9c.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/syscall.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\cmTC_c2b9c.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\cmTC_c2b9c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\cmTC_c2b9c.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/syscall.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9m5tg0\\cmTC_c2b9c.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:113 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/time.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-94t9wx"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-94t9wx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-94t9wx'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_21fcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:34銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\cmTC_21fcc.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_21fcc.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_21fcc.dir\\Debug\\cmTC_21fcc.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_21fcc.dir\\Debug\\cmTC_21fcc.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_21fcc.dir\\Debug\\cmTC_21fcc.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21fcc.dir\\Debug\\\\" /Fd"cmTC_21fcc.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21fcc.dir\\Debug\\\\" /Fd"cmTC_21fcc.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/time.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\cmTC_21fcc.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\cmTC_21fcc.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\cmTC_21fcc.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/time.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-94t9wx\\cmTC_21fcc.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:114 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-l5l5nh"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-l5l5nh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-l5l5nh'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2887e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:36銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\cmTC_2887e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2887e.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2887e.dir\\Debug\\cmTC_2887e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_2887e.dir\\Debug\\cmTC_2887e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2887e.dir\\Debug\\cmTC_2887e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2887e.dir\\Debug\\\\" /Fd"cmTC_2887e.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2887e.dir\\Debug\\\\" /Fd"cmTC_2887e.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\Debug\\cmTC_2887e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-l5l5nh/Debug/cmTC_2887e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-l5l5nh/Debug/cmTC_2887e.lib" /MACHINE:X64  /machine:x64 cmTC_2887e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2887e.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\Debug\\cmTC_2887e.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_2887e.dir\\Debug\\cmTC_2887e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2887e.dir\\Debug\\cmTC_2887e.tlog\\cmTC_2887e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-l5l5nh\\cmTC_2887e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:115 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/utsname.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-5ao4rv"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-5ao4rv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_UTSNAME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-5ao4rv'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d6f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:40銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\cmTC_6d6f4.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6d6f4.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6d6f4.dir\\Debug\\cmTC_6d6f4.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_6d6f4.dir\\Debug\\cmTC_6d6f4.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6d6f4.dir\\Debug\\cmTC_6d6f4.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d6f4.dir\\Debug\\\\" /Fd"cmTC_6d6f4.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d6f4.dir\\Debug\\\\" /Fd"cmTC_6d6f4.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/utsname.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\cmTC_6d6f4.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\cmTC_6d6f4.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\cmTC_6d6f4.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/utsname.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-5ao4rv\\cmTC_6d6f4.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.15
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:116 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/wait.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-tbqx5m"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-tbqx5m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_WAIT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-tbqx5m'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_efa13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:42銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\cmTC_efa13.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_efa13.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_efa13.dir\\Debug\\cmTC_efa13.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_efa13.dir\\Debug\\cmTC_efa13.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_efa13.dir\\Debug\\cmTC_efa13.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_efa13.dir\\Debug\\\\" /Fd"cmTC_efa13.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_efa13.dir\\Debug\\\\" /Fd"cmTC_efa13.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/wait.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\cmTC_efa13.vcxproj]
+          
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\cmTC_efa13.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\cmTC_efa13.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/wait.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-tbqx5m\\cmTC_efa13.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.15
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:117 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include syscall.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-89zm1m"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-89zm1m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYSCALL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-89zm1m'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04df8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:45銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\cmTC_04df8.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_04df8.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_04df8.dir\\Debug\\cmTC_04df8.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_04df8.dir\\Debug\\cmTC_04df8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_04df8.dir\\Debug\\cmTC_04df8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_04df8.dir\\Debug\\\\" /Fd"cmTC_04df8.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_04df8.dir\\Debug\\\\" /Fd"cmTC_04df8.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟yscall.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\cmTC_04df8.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\cmTC_04df8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\cmTC_04df8.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟yscall.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-89zm1m\\cmTC_04df8.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:118 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include syslog.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-yjbpc0"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-yjbpc0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYSLOG_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-yjbpc0'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af0ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:47銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\cmTC_af0ad.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_af0ad.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_af0ad.dir\\Debug\\cmTC_af0ad.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_af0ad.dir\\Debug\\cmTC_af0ad.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_af0ad.dir\\Debug\\cmTC_af0ad.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af0ad.dir\\Debug\\\\" /Fd"cmTC_af0ad.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af0ad.dir\\Debug\\\\" /Fd"cmTC_af0ad.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟yslog.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\cmTC_af0ad.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\cmTC_af0ad.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\cmTC_af0ad.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟yslog.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjbpc0\\cmTC_af0ad.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:119 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include ucontext.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-fhdmom"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-fhdmom"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UCONTEXT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-fhdmom'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c9ad8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:50銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\cmTC_c9ad8.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c9ad8.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c9ad8.dir\\Debug\\cmTC_c9ad8.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c9ad8.dir\\Debug\\cmTC_c9ad8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c9ad8.dir\\Debug\\cmTC_c9ad8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9ad8.dir\\Debug\\\\" /Fd"cmTC_c9ad8.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9ad8.dir\\Debug\\\\" /Fd"cmTC_c9ad8.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦context.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\cmTC_c9ad8.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\cmTC_c9ad8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\cmTC_c9ad8.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦context.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-fhdmom\\cmTC_c9ad8.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:120 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include unistd.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-s7lr8t"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-s7lr8t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-s7lr8t'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43a6b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:52銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\cmTC_43a6b.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_43a6b.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_43a6b.dir\\Debug\\cmTC_43a6b.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_43a6b.dir\\Debug\\cmTC_43a6b.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_43a6b.dir\\Debug\\cmTC_43a6b.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_43a6b.dir\\Debug\\\\" /Fd"cmTC_43a6b.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_43a6b.dir\\Debug\\\\" /Fd"cmTC_43a6b.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\cmTC_43a6b.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\cmTC_43a6b.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\cmTC_43a6b.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-s7lr8t\\cmTC_43a6b.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:122 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include ext/hash_map"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-lmkuw4"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-lmkuw4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXT_HASH_MAP"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-lmkuw4'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ba210.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:54銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\cmTC_ba210.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ba210.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ba210.dir\\Debug\\cmTC_ba210.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_ba210.dir\\Debug\\cmTC_ba210.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ba210.dir\\Debug\\cmTC_ba210.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ba210.dir\\Debug\\\\" /Fd"cmTC_ba210.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ba210.dir\\Debug\\\\" /Fd"cmTC_ba210.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/hash_map鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\cmTC_ba210.vcxproj]
+          
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\cmTC_ba210.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\cmTC_ba210.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/hash_map鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-lmkuw4\\cmTC_ba210.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.16
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:123 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include ext/hash_set"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-smbqbp"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-smbqbp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXT_HASH_SET"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-smbqbp'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ffa5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:50:56銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\cmTC_0ffa5.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0ffa5.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0ffa5.dir\\Debug\\cmTC_0ffa5.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_0ffa5.dir\\Debug\\cmTC_0ffa5.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_0ffa5.dir\\Debug\\cmTC_0ffa5.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ffa5.dir\\Debug\\\\" /Fd"cmTC_0ffa5.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ffa5.dir\\Debug\\\\" /Fd"cmTC_0ffa5.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/hash_set鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\cmTC_0ffa5.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\cmTC_0ffa5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\cmTC_0ffa5.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/hash_set鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-smbqbp\\cmTC_0ffa5.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:124 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include ext/slist"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ql4gkw"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ql4gkw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXT_SLIST"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ql4gkw'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a4f2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:00銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\cmTC_8a4f2.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8a4f2.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8a4f2.dir\\Debug\\cmTC_8a4f2.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_8a4f2.dir\\Debug\\cmTC_8a4f2.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_8a4f2.dir\\Debug\\cmTC_8a4f2.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8a4f2.dir\\Debug\\\\" /Fd"cmTC_8a4f2.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8a4f2.dir\\Debug\\\\" /Fd"cmTC_8a4f2.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/slist鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\cmTC_8a4f2.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\cmTC_8a4f2.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\cmTC_8a4f2.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渆xt/slist鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ql4gkw\\cmTC_8a4f2.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:125 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include tr1/unordered_map"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-zxuyk6"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-zxuyk6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_TR1_UNORDERED_MAP"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-zxuyk6'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28152.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:03銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\cmTC_28152.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_28152.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_28152.dir\\Debug\\cmTC_28152.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_28152.dir\\Debug\\cmTC_28152.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_28152.dir\\Debug\\cmTC_28152.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28152.dir\\Debug\\\\" /Fd"cmTC_28152.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28152.dir\\Debug\\\\" /Fd"cmTC_28152.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渢r1/unordered_map鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\cmTC_28152.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\cmTC_28152.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\cmTC_28152.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渢r1/unordered_map鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-zxuyk6\\cmTC_28152.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:126 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include tr1/unordered_set"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-hnd0mx"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-hnd0mx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_TR1_UNORDERED_SET"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-hnd0mx'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3682d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:06銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\cmTC_3682d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3682d.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3682d.dir\\Debug\\cmTC_3682d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_3682d.dir\\Debug\\cmTC_3682d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3682d.dir\\Debug\\cmTC_3682d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3682d.dir\\Debug\\\\" /Fd"cmTC_3682d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3682d.dir\\Debug\\\\" /Fd"cmTC_3682d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渢r1/unordered_set鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\cmTC_3682d.vcxproj]
+          
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\cmTC_3682d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\cmTC_3682d.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\CheckIncludeFile.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渢r1/unordered_set鈥? No such file or directory [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-hnd0mx\\cmTC_3682d.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:127 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include unordered_map"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-i0d6al"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-i0d6al"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNORDERED_MAP"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-i0d6al'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_859aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:09銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\cmTC_859aa.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_859aa.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_859aa.dir\\Debug\\cmTC_859aa.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_859aa.dir\\Debug\\cmTC_859aa.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_859aa.dir\\Debug\\cmTC_859aa.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_859aa.dir\\Debug\\\\" /Fd"cmTC_859aa.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_859aa.dir\\Debug\\\\" /Fd"cmTC_859aa.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\Debug\\cmTC_859aa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-i0d6al/Debug/cmTC_859aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-i0d6al/Debug/cmTC_859aa.lib" /MACHINE:X64  /machine:x64 cmTC_859aa.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_859aa.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\Debug\\cmTC_859aa.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_859aa.dir\\Debug\\cmTC_859aa.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_859aa.dir\\Debug\\cmTC_859aa.tlog\\cmTC_859aa.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-i0d6al\\cmTC_859aa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:04.28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:128 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include unordered_set"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-dbbrpd"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-dbbrpd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNORDERED_SET"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-dbbrpd'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f7ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:16銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\cmTC_6f7ab.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6f7ab.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6f7ab.dir\\Debug\\cmTC_6f7ab.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_6f7ab.dir\\Debug\\cmTC_6f7ab.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6f7ab.dir\\Debug\\cmTC_6f7ab.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f7ab.dir\\Debug\\\\" /Fd"cmTC_6f7ab.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f7ab.dir\\Debug\\\\" /Fd"cmTC_6f7ab.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\Debug\\cmTC_6f7ab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-dbbrpd/Debug/cmTC_6f7ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-dbbrpd/Debug/cmTC_6f7ab.lib" /MACHINE:X64  /machine:x64 cmTC_6f7ab.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_6f7ab.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\Debug\\cmTC_6f7ab.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_6f7ab.dir\\Debug\\cmTC_6f7ab.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6f7ab.dir\\Debug\\cmTC_6f7ab.tlog\\cmTC_6f7ab.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-dbbrpd\\cmTC_6f7ab.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:07.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:272 (check_include_file_cxx)"
+      - "CMakeLists.txt:130 (check_type_size)"
+    checks:
+      - "Looking for C++ include stddef.h"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rlrezg"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rlrezg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rlrezg'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c7d6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:27銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\cmTC_c7d6d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c7d6d.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c7d6d.dir\\Debug\\cmTC_c7d6d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c7d6d.dir\\Debug\\cmTC_c7d6d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c7d6d.dir\\Debug\\cmTC_c7d6d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c7d6d.dir\\Debug\\\\" /Fd"cmTC_c7d6d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c7d6d.dir\\Debug\\\\" /Fd"cmTC_c7d6d.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\Debug\\cmTC_c7d6d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rlrezg/Debug/cmTC_c7d6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-rlrezg/Debug/cmTC_c7d6d.lib" /MACHINE:X64  /machine:x64 cmTC_c7d6d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c7d6d.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\Debug\\cmTC_c7d6d.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_c7d6d.dir\\Debug\\cmTC_c7d6d.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c7d6d.dir\\Debug\\cmTC_c7d6d.tlog\\cmTC_c7d6d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-rlrezg\\cmTC_c7d6d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:06.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:130 (check_type_size)"
+    checks:
+      - "Check size of unsigned __int16"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mx646p"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mx646p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_HAVE___UINT16"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mx646p'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5518.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:36銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\cmTC_a5518.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a5518.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a5518.dir\\Debug\\cmTC_a5518.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a5518.dir\\Debug\\cmTC_a5518.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a5518.dir\\Debug\\cmTC_a5518.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a5518.dir\\Debug\\\\" /Fd"cmTC_a5518.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\HAVE___UINT16.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a5518.dir\\Debug\\\\" /Fd"cmTC_a5518.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\HAVE___UINT16.cpp"
+          HAVE___UINT16.cpp
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\Debug\\cmTC_a5518.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mx646p/Debug/cmTC_a5518.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-mx646p/Debug/cmTC_a5518.lib" /MACHINE:X64  /machine:x64 cmTC_a5518.dir\\Debug\\HAVE___UINT16.obj
+          cmTC_a5518.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\Debug\\cmTC_a5518.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_a5518.dir\\Debug\\cmTC_a5518.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a5518.dir\\Debug\\cmTC_a5518.tlog\\cmTC_a5518.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-mx646p\\cmTC_a5518.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:03.15
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:131 (check_type_size)"
+    checks:
+      - "Check size of u_int16_t"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-suuh6s"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-suuh6s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_HAVE_U_INT16_T"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-suuh6s'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f3282.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:40銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f3282.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f3282.dir\\Debug\\cmTC_f3282.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f3282.dir\\Debug\\cmTC_f3282.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f3282.dir\\Debug\\cmTC_f3282.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3282.dir\\Debug\\\\" /Fd"cmTC_f3282.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3282.dir\\Debug\\\\" /Fd"cmTC_f3282.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp"
+          HAVE_U_INT16_T.cpp
+          
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(29): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(30): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(31): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(32): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(33): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(29): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(30): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(31): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(32): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\HAVE_U_INT16_T.cpp(33): error C2065: 鈥渦_int16_t鈥? 鏈０鏄庣殑鏍囪瘑绗?[F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-suuh6s\\cmTC_f3282.vcxproj]
+        
+            0 涓鍛?
+            5 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.06
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:132 (check_type_size)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ydiork"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ydiork"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_HAVE_UINT16_T"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ydiork'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f6a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:42銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\cmTC_5f6a1.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5f6a1.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5f6a1.dir\\Debug\\cmTC_5f6a1.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_5f6a1.dir\\Debug\\cmTC_5f6a1.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5f6a1.dir\\Debug\\cmTC_5f6a1.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f6a1.dir\\Debug\\\\" /Fd"cmTC_5f6a1.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\HAVE_UINT16_T.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f6a1.dir\\Debug\\\\" /Fd"cmTC_5f6a1.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\HAVE_UINT16_T.cpp"
+          HAVE_UINT16_T.cpp
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\Debug\\cmTC_5f6a1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ydiork/Debug/cmTC_5f6a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-ydiork/Debug/cmTC_5f6a1.lib" /MACHINE:X64  /machine:x64 cmTC_5f6a1.dir\\Debug\\HAVE_UINT16_T.obj
+          cmTC_5f6a1.vcxproj -> F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\Debug\\cmTC_5f6a1.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5f6a1.dir\\Debug\\cmTC_5f6a1.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5f6a1.dir\\Debug\\cmTC_5f6a1.tlog\\cmTC_5f6a1.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-ydiork\\cmTC_5f6a1.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:134 (check_function_exists)"
+    checks:
+      - "Looking for dladdr"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-bacv7f"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-bacv7f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DLADDR"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-bacv7f'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f67aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:46銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f67aa.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f67aa.dir\\Debug\\cmTC_f67aa.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f67aa.dir\\Debug\\cmTC_f67aa.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f67aa.dir\\Debug\\cmTC_f67aa.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dladdr /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f67aa.dir\\Debug\\\\" /Fd"cmTC_f67aa.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dladdr /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f67aa.dir\\Debug\\\\" /Fd"cmTC_f67aa.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\Debug\\cmTC_f67aa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-bacv7f/Debug/cmTC_f67aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-bacv7f/Debug/cmTC_f67aa.lib" /MACHINE:X64  /machine:x64 cmTC_f67aa.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?dladdr锛岃绗﹀彿鍦ㄥ嚱鏁?main 涓寮曠敤 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\Debug\\cmTC_f67aa.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?dladdr锛岃绗﹀彿鍦ㄥ嚱鏁?main 涓寮曠敤 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\Debug\\cmTC_f67aa.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-bacv7f\\cmTC_f67aa.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.78
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:135 (check_function_exists)"
+    checks:
+      - "Looking for fcntl"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-b2u93r"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-b2u93r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_FCNTL"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-b2u93r'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_baf6e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:51:50銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_baf6e.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_baf6e.dir\\Debug\\cmTC_baf6e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_baf6e.dir\\Debug\\cmTC_baf6e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_baf6e.dir\\Debug\\cmTC_baf6e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_baf6e.dir\\Debug\\\\" /Fd"cmTC_baf6e.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_baf6e.dir\\Debug\\\\" /Fd"cmTC_baf6e.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\Debug\\cmTC_baf6e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-b2u93r/Debug/cmTC_baf6e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-b2u93r/Debug/cmTC_baf6e.lib" /MACHINE:X64  /machine:x64 cmTC_baf6e.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?fcntl锛岃绗﹀彿鍦ㄥ嚱鏁?main 涓寮曠敤 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\Debug\\cmTC_baf6e.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?fcntl锛岃绗﹀彿鍦ㄥ嚱鏁?main 涓寮曠敤 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\Debug\\cmTC_baf6e.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-b2u93r\\cmTC_baf6e.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:07.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:136 (check_function_exists)"
+    checks:
+      - "Looking for pread"
+    directories:
+      source: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9vm4zj"
+      binary: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9vm4zj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/3.Projects/mancan_v1/weasel/librime/deps/glog/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_PREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9vm4zj'
+        
+        Run Build Command(s): "d:/Program/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e6c50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/14 22:52:03銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e6c50.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e6c50.dir\\Debug\\cmTC_e6c50.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_e6c50.dir\\Debug\\cmTC_e6c50.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e6c50.dir\\Debug\\cmTC_e6c50.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pread /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e6c50.dir\\Debug\\\\" /Fd"cmTC_e6c50.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.16.27054 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pread /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e6c50.dir\\Debug\\\\" /Fd"cmTC_e6c50.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          
+        Link:
+          d:\\Program\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\Debug\\cmTC_e6c50.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9vm4zj/Debug/cmTC_e6c50.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/3.Projects/mancan_v1/weasel/librime/deps/glog/test-build/CMakeFiles/CMakeScratch/TryCompile-9vm4zj/Debug/cmTC_e6c50.lib" /MACHINE:X64  /machine:x64 cmTC_e6c50.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?pread锛岃绗﹀彿鍦ㄥ嚱鏁?main 涓寮曠敤 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj]
+        F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\Debug\\cmTC_e6c50.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淔:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?pread锛岃绗﹀彿鍦ㄥ嚱鏁?main 涓寮曠敤 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj]
+          F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\Debug\\cmTC_e6c50.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [F:\\3.Projects\\mancan_v1\\weasel\\librime\\deps\\glog\\test-build\\CMakeFiles\\CMakeScratch\\TryCompile-9vm4zj\\cmTC_e6c50.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:10.55
+        
+      exitCode: 1
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64

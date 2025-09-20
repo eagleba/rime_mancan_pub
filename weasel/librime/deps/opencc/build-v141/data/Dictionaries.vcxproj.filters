@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariants.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariantsRev.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariantsRev.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\HKVariantsRevPhrases.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPShinjitaiCharacters.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPShinjitaiPhrases.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPVariants.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPVariantsRev.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\JPVariantsRev.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\STCharacters.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\STPhrases.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TSCharacters.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TSPhrases.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrases.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrases.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrasesRev.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWPhrasesRev.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariants.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariantsRev.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariantsRev.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\7d4a938c0254e3524fd0d6673f7558ab\TWVariantsRevPhrases.ocd2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\CMakeFiles\b6660cfbdb78950051a5528f928b5d59\Dictionaries.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\data\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\3.Projects\mancan_v1\weasel\librime\deps\opencc\build-v141\data\CMakeFiles\Dictionaries" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F029DB2-A0DE-3A46-B187-9C447A766469}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
