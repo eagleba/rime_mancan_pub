@@ -19,7 +19,7 @@ Menu::Menu()
 
 void Menu::AddTranslation(an<Translation> translation) {
   *merged_ += translation;
-  DLOG(INFO) << merged_->size() << " translations added.";
+  LOG(INFO) << merged_->size() << " translations added.";
 }
 
 void Menu::AddFilter(Filter* filter) {
@@ -27,13 +27,22 @@ void Menu::AddFilter(Filter* filter) {
 }
 
 size_t Menu::Prepare(size_t requested) {
-  DLOG(INFO) << "preparing " << requested << " candidates.";
+  LOG(INFO) << "=== Menu::Prepare START ===";
+  LOG(INFO) << "Preparing " << requested << " candidates";
+  LOG(INFO) << "Current candidate count: " << candidates_.size();
+  
   while (candidates_.size() < requested && !result_->exhausted()) {
     if (auto cand = result_->Peek()) {
+      LOG(INFO) << "Adding candidate #" << (candidates_.size() + 1) << ": '" << cand->text() << "'";
+      if (!cand->comment().empty()) {
+        LOG(INFO) << "  Comment: '" << cand->comment() << "'";
+      }
       candidates_.push_back(cand);
     }
     result_->Next();
   }
+  
+  LOG(INFO) << "=== Menu::Prepare COMPLETE, final candidate count: " << candidates_.size() << " ===";
   return candidates_.size();
 }
 

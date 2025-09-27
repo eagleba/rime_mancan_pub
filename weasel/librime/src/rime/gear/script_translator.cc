@@ -8,6 +8,7 @@
 //
 #include <algorithm>
 #include <stack>
+#include <cstdio>
 #include <boost/algorithm/string/join.hpp>
 #include <boost/range/adaptor/reversed.hpp>
 #include <rime/composition.h>
@@ -177,13 +178,29 @@ an<Translation> ScriptTranslator::Query(const string& input,
     return nullptr;
   if (!segment.HasTag(tag_))
     return nullptr;
-  DLOG(INFO) << "input = '" << input
-             << "', [" << segment.start << ", " << segment.end << ")";
+  
+  // Detailed debug logging: record input pinyin and function calls
+  FILE* log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "=== ScriptTranslator::Query START ===\n");
+    fprintf(log_file, "Input pinyin: '%s'\n", input.c_str());
+    fprintf(log_file, "Input position: [%zu, %zu)\n", segment.start, segment.end);
+    fprintf(log_file, "Dictionary status: dict_loaded=%d\n", (dict_ && dict_->loaded()) ? 1 : 0);
+    fprintf(log_file, "User dictionary status: user_dict_loaded=%d\n", (user_dict_ && user_dict_->loaded()) ? 1 : 0);
+    fclose(log_file);
+  }
 
   FinishSession();
 
   bool enable_user_dict = user_dict_ && user_dict_->loaded() &&
       !IsUserDictDisabledFor(input);
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "User dictionary enabled: %d\n", enable_user_dict ? 1 : 0);
+    fprintf(log_file, "Creating ScriptTranslation object...\n");
+    fclose(log_file);
+  }
 
   // the translator should survive translations it creates
   auto result = New<ScriptTranslation>(this,
@@ -191,14 +208,51 @@ an<Translation> ScriptTranslator::Query(const string& input,
                                        poet_.get(),
                                        input,
                                        segment.start);
-  if (!result ||
-      !result->Evaluate(dict_.get(),
-                        enable_user_dict ? user_dict_.get() : NULL)) {
+  if (!result) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "ScriptTranslation creation failed!\n");
+      fclose(log_file);
+    }
     return nullptr;
   }
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Starting Evaluate for dictionary lookup...\n");
+    fclose(log_file);
+  }
+  
+  if (!result->Evaluate(dict_.get(),
+                        enable_user_dict ? user_dict_.get() : NULL)) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Evaluate failed, no matching words found\n");
+      fclose(log_file);
+    }
+    return nullptr;
+  }
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Evaluate succeeded, creating deduplication translation object...\n");
+    fclose(log_file);
+  }
+  
   auto deduped = New<DistinctTranslation>(result);
   if (contextual_suggestions_) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Applying contextual suggestion weights...\n");
+      fclose(log_file);
+    }
     return poet_->ContextualWeighted(deduped, input, segment.start, this);
+  }
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "=== ScriptTranslator::Query COMPLETE ===\n");
+    fclose(log_file);
   }
   return deduped;
 }
@@ -357,31 +411,103 @@ string ScriptSyllabifier::GetOriginalSpelling(const Phrase& cand) const {
 // ScriptTranslation implementation
 
 bool ScriptTranslation::Evaluate(Dictionary* dict, UserDictionary* user_dict) {
+  FILE* log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "=== ScriptTranslation::Evaluate START ===\n");
+    fclose(log_file);
+  }
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Building syllable graph...\n");
+    fclose(log_file);
+  }
+  
   size_t consumed = syllabifier_->BuildSyllableGraph(*dict->prism());
   const auto& syllable_graph = syllabifier_->syllable_graph();
-
-  phrase_ = dict->Lookup(syllable_graph, 0);
-  if (user_dict) {
-    user_phrase_ = user_dict->Lookup(syllable_graph, 0);
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Syllable graph built, consumed chars: %zu\n", consumed);
+    fprintf(log_file, "Syllable graph vertices: %zu\n", syllable_graph.vertices.size());
+    fprintf(log_file, "Syllable graph edges: %zu\n", syllable_graph.edges.size());
+    fclose(log_file);
   }
-  if (!phrase_ && !user_phrase_)
+
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Querying main dictionary...\n");
+    fclose(log_file);
+  }
+  
+  phrase_ = dict->Lookup(syllable_graph, 0);
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Main dictionary result: %s\n", (phrase_ ? "found words" : "no words found"));
+    fclose(log_file);
+  }
+  
+  if (user_dict) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Querying user dictionary...\n");
+      fclose(log_file);
+    }
+    
+    user_phrase_ = user_dict->Lookup(syllable_graph, 0);
+    
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "User dictionary result: %s\n", (user_phrase_ ? "found words" : "no words found"));
+      fclose(log_file);
+    }
+  } else {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "User dictionary not enabled\n");
+      fclose(log_file);
+    }
+  }
+  
+  if (!phrase_ && !user_phrase_) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Both main and user dictionaries found no matching words, returning failure\n");
+      fclose(log_file);
+    }
     return false;
+  }
   // make sentences when there is no exact-matching phrase candidate
   size_t translated_len = 0;
   if (phrase_ && !phrase_->empty())
     translated_len = (std::max)(translated_len, phrase_->rbegin()->first);
   if (user_phrase_ && !user_phrase_->empty())
     translated_len = (std::max)(translated_len, user_phrase_->rbegin()->first);
+  
+  LOG(INFO) << "Translated length: " << translated_len << ", consumed length: " << consumed;
+  
   if (translated_len < consumed &&
       syllable_graph.edges.size() > 1) {  // at least 2 syllables required
+    LOG(INFO) << "Need to generate sentence, calling MakeSentence...";
     sentence_ = MakeSentence(dict, user_dict);
+    LOG(INFO) << "Sentence generation result: " << (sentence_ ? "success" : "failed");
+  } else {
+    LOG(INFO) << "No need to generate sentence";
   }
 
-  if (phrase_)
+  if (phrase_) {
     phrase_iter_ = phrase_->rbegin();
-  if (user_phrase_)
+    LOG(INFO) << "Initializing main dictionary iterator";
+  }
+  if (user_phrase_) {
     user_phrase_iter_ = user_phrase_->rbegin();
-  return !CheckEmpty();
+    LOG(INFO) << "Initializing user dictionary iterator";
+  }
+  
+  bool result = !CheckEmpty();
+  LOG(INFO) << "=== ScriptTranslation::Evaluate COMPLETE, result: " << (result ? "success" : "failed") << " ===";
+  return result;
 }
 
 bool ScriptTranslation::Next() {
@@ -439,34 +565,90 @@ bool ScriptTranslation::IsNormalSpelling() const {
 }
 
 an<Candidate> ScriptTranslation::Peek() {
+  FILE* log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "=== ScriptTranslation::Peek START ===\n");
+    fclose(log_file);
+  }
+  
   PrepareCandidate();
   if (!candidate_) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "No candidate, returning null\n");
+      fclose(log_file);
+    }
     return nullptr;
   }
-  if (candidate_->preedit().empty()) {
-    candidate_->set_preedit(syllabifier_->GetPreeditString(*candidate_));
+  
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "Candidate text: '%s'\n", candidate_->text().c_str());
+    fprintf(log_file, "Candidate type: %s\n", candidate_->type().c_str());
+    fclose(log_file);
   }
+  
+  if (candidate_->preedit().empty()) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Setting preedit text...\n");
+      fclose(log_file);
+    }
+    candidate_->set_preedit(syllabifier_->GetPreeditString(*candidate_));
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Preedit text: '%s'\n", candidate_->preedit().c_str());
+      fclose(log_file);
+    }
+  }
+  
   if (candidate_->comment().empty()) {
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Setting comment...\n");
+      fclose(log_file);
+    }
     auto spelling = syllabifier_->GetOriginalSpelling(*candidate_);
+    log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+    if (log_file) {
+      fprintf(log_file, "Original spelling: '%s'\n", spelling.c_str());
+      fclose(log_file);
+    }
     if (!spelling.empty() &&
         (translator_->always_show_comments() ||
           spelling != candidate_->preedit())) {
-      candidate_->set_comment(/*quote_left + */spelling/* + quote_right*/);
+      candidate_->set_comment(spelling);
+      log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+      if (log_file) {
+        fprintf(log_file, "Set comment to: '%s'\n", candidate_->comment().c_str());
+        fclose(log_file);
+      }
     }
   }
+  
   candidate_->set_syllabifier(syllabifier_);
+  log_file = fopen("F:\\3.Projects\\mancan_v1\\debug_log.txt", "a");
+  if (log_file) {
+    fprintf(log_file, "=== ScriptTranslation::Peek COMPLETE ===\n");
+    fclose(log_file);
+  }
   return candidate_;
 }
 
 void ScriptTranslation::PrepareCandidate() {
+  LOG(INFO) << "=== ScriptTranslation::PrepareCandidate START ===";
+  
   if (exhausted()) {
+    LOG(INFO) << "Candidates exhausted, returning null";
     candidate_ = nullptr;
     return;
   }
   if (sentence_) {
+    LOG(INFO) << "Using sentence candidate";
     candidate_ = sentence_;
     return;
   }
+  
   size_t user_phrase_code_length = 0;
   if (user_phrase_ && user_phrase_iter_ != user_phrase_->rend()) {
     user_phrase_code_length = user_phrase_iter_->first;
@@ -475,37 +657,51 @@ void ScriptTranslation::PrepareCandidate() {
   if (phrase_ && phrase_iter_ != phrase_->rend()) {
     phrase_code_length = phrase_iter_->first;
   }
+  
+  LOG(INFO) << "User dictionary code length: " << user_phrase_code_length;
+  LOG(INFO) << "Main dictionary code length: " << phrase_code_length;
+  
   an<Phrase> cand;
   if (user_phrase_code_length > 0 &&
       user_phrase_code_length >= phrase_code_length) {
+    LOG(INFO) << "Using user dictionary candidate first";
     UserDictEntryIterator& uter = user_phrase_iter_->second;
     const auto& entry = uter.Peek();
-    DLOG(INFO) << "user phrase '" << entry->text
-               << "', code length: " << user_phrase_code_length;
+    LOG(INFO) << "User dictionary word: '" << entry->text << "', code length: " << user_phrase_code_length;
+    LOG(INFO) << "Word weight: " << entry->weight;
+    
     cand = New<Phrase>(translator_->language(),
                        "user_phrase",
                        start_,
                        start_ + user_phrase_code_length,
                        entry);
-    cand->set_quality(exp(entry->weight) +
-                      translator_->initial_quality() +
-                      (IsNormalSpelling() ? 0.5 : -0.5));
+    double quality = exp(entry->weight) +
+                     translator_->initial_quality() +
+                     (IsNormalSpelling() ? 0.5 : -0.5);
+    cand->set_quality(quality);
+    LOG(INFO) << "Candidate quality score: " << quality;
   }
   else if (phrase_code_length > 0) {
+    LOG(INFO) << "Using main dictionary candidate";
     DictEntryIterator& iter = phrase_iter_->second;
     const auto& entry = iter.Peek();
-    DLOG(INFO) << "phrase '" << entry->text
-               << "', code length: " << phrase_code_length;
+    LOG(INFO) << "Main dictionary word: '" << entry->text << "', code length: " << phrase_code_length;
+    LOG(INFO) << "Word weight: " << entry->weight;
+    
     cand = New<Phrase>(translator_->language(),
                        "phrase",
                        start_,
                        start_ + phrase_code_length,
                        entry);
-    cand->set_quality(exp(entry->weight) +
-                      translator_->initial_quality() +
-                      (IsNormalSpelling() ? 0 : -1));
+    double quality = exp(entry->weight) +
+                     translator_->initial_quality() +
+                     (IsNormalSpelling() ? 0 : -1);
+    cand->set_quality(quality);
+    LOG(INFO) << "Candidate quality score: " << quality;
   }
+  
   candidate_ = cand;
+  LOG(INFO) << "=== ScriptTranslation::PrepareCandidate COMPLETE ===";
 }
 
 bool ScriptTranslation::CheckEmpty() {
@@ -557,5 +753,6 @@ an<Sentence> ScriptTranslation::MakeSentence(Dictionary* dict,
   }
   return nullptr;
 }
+
 
 }  // namespace rime
